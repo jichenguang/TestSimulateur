@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<map>
+	<!--locator of page map info -->
+	<!-- 说明：调用这个xml文档的类 -->
+	<page pageName="Webq.Locator.ResolveLocator">
+		<!--Locator lists -->
+		<!-- Store我的 -->
+		<locator type="ByXpath" timeOut="3" value="html/body/div[1]/div/div[3]">profile</locator>
+		<!-- Wap Store我的 -->
+		<locator type="ByXpath" timeOut="3" value="html/body/div[1]/div/div[3]">profileWap</locator>				
+		<!-- 社区我的 -->
+		<!-- <locator type="ByXpath" timeOut="3" value=".//*[@id='header-avatr-wrap']/div/a/img">profile</locator> -->	
+		<!-- 主页 -->
+		<locator type="ByXpath" timeOut="3" value=".//*[@id='menus']/li[1]/a">MainPage</locator>
+		<!-- 跳转到Store -->		
+		<locator type="ByXpath" timeOut="3" value=".//*[@id='header-nav']/li[8]/a">BBStoStore</locator>
+		<!-- 页头 -->		
+		<locator type="ByXpath" timeOut="3" value="html/head/title">TitleStore</locator>
+		<locator type="ByXpath" timeOut="3" value="html/head/title">TitleStoreWap</locator>
+		<!-- 首页LOGO -->		
+		<locator type="ByXpath" timeOut="3" value=".//div[@class = 'logo']">LogoStore</locator>
+		<locator type="ByXpath" timeOut="3" value="html/body/section[1]/a[2]/span">LogoStoreWap</locator>
+		<!-- Booking页面的中间Div -->		
+		<locator type="ByXpath" timeOut="3" value=".//div[@class = 'content-holder graybg product-detail-page']">MiddleDiv</locator>
+		<!-- 首页DivPer周边节点 -->		
+		<locator type="ByXpath" timeOut="3" value=".//*[@id='per']">Per</locator>
+		<locator type="ByXpath" timeOut="3" value=".//*[@id='per']/h4">PerTitle</locator>
+		<locator type="ByXpath" timeOut="3" value="html/body/section[3]/a[3]">PerTitleWap</locator>
+		<locator type="ByXpath" timeOut="3" value=".//*[@id='per']/div/a">PerBtn</locator>
+		<locator type="ByXpath" timeOut="3" value="html/body/section[3]/a[3]">PerBtnWap</locator>
+		
+		<!-- WAP的MenuBar -->
+		<!-- 父节点路径 -->
+		<locator type="ByXpath" timeOut="3" value=".//section[@class = 'menu-bar']">PathDivMenuBar</locator>
+		<!-- 子节点相对路径 -->
+		<locator type="ByXpath" timeOut="3" value="/a">PathSubDivMenuBar</locator>		
+	</page>
+</map>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite (0)]" parallel="tests">
+  <test verbose="2" name="TestGroups">
+    <classes>
+      <class name="Webq.Case.CaseWAP">
+        <methods>
+          <include name="TestWap1"/>
+          <include name="TestWap2"/>
+          <include name="TestWap3"/>
+          <include name="TestWap4"/>
+        </methods>
+      </class> <!-- Webq.Case.CaseWAP -->
+    </classes>
+  </test> <!-- TestGroups -->
+</suite> <!-- Failed suite [Suite (0)] -->

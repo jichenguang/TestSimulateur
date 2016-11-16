@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<map>
+	<!--locator of page map info -->
+	<page pageName="Webq.Page.WebqPageHome">
+		<!--Locator lists -->
+		<!-- Store我的 -->
+	<!-- 	<locator type="ByXpath" timeOut="3" value="html/body/div[1]/div/div[3]">profile</locator>	 -->
+		
+		<!-- 社区我的 -->
+		<!-- <locator type="ByXpath" timeOut="3" value=".//*[@id='header-avatr-wrap']/div/a/img">profile</locator> -->	
+		<!-- 主页 -->
+		<locator type="ByXpath" timeOut="3" value=".//*[@id='menus']/li[1]/a">MainPage</locator>
+		<!-- 跳转到Store -->		
+		<locator type="ByXpath" timeOut="3" value=".//*[@id='header-nav']/li[8]/a">BBStoStore</locator>
+		<!-- 页头 -->		
+		<locator type="ByXpath" timeOut="3" value="html/head/title">TitleStore</locator>
+	</page>
+</map>

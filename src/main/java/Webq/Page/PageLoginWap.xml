@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<map>
+	<!--locator of page map info -->
+	<page pageName="Webq.Page.PageLoginWap">
+		<!--Locator lists -->
+		<!-- 旧版用户名 -->
+		<!-- <locator type="ByXpath" timeOut="3" value=".//*[@id='txtEmail']">loginEmailInputBox</locator> -->
+		<!-- 旧版密码 -->
+		<!-- <locator type="ByXpath" timeOut="3" value=".//*[@id='txtPassword']">loginPasswordInputBox</locator> -->
+		<!-- 旧版登陆按钮 -->
+		<!-- <locator type="ByXpath" timeOut="3" value=".//*[@id='btnLogin']">loginButton</locator> -->
+		
+		
+		<!-- WAP用户名 -->
+		<locator type="ByXpath" timeOut="3" value=".//*[@id='txtEmail']">txtEmailInputBox</locator>
+		<!-- WAP密码 -->
+		<locator type="ByXpath" timeOut="3" value=".//*[@id='txtPassword']">txtPasswordInputBox</locator>
+		<!-- WAP登陆按钮 -->
+		<locator type="ByXpath" timeOut="3" value=".//*[@id='btnSubmit']">loginButton</locator>
+		
+		<!-- 玩过界活动页 -->		
+		<locator type="ByXpath" timeOut="3" value=".//*[@id='form1']/div[2]">wgjTitl</locator>
+		<!-- 我的首页 -->
+		<!-- <locator type="ByXpath" timeOut="3" value="html/body/div[1]/div/div[3]">profile</locator> -->		
+		<locator type="ByXpath" timeOut="3" value=".//*[@id='cart']/span">profile</locator>	
+		<locator type="ByXpath" timeOut="3" value=".//*[@id='personal']">profileWap</locator>	
+		<!-- <locator type="ByXpath" timeOut="3" value="html/body/div[1]/div/ul/li[1]/a">profile</locator> -->	
+		
+		<!-- Stroe从首页切换到登陆页的按钮 -->
+	<!-- 	<locator type="ByXpath" timeOut="30" value=".//*[@id='login']/a">clickToLoginButton</locator>  -->
+		<!-- 社区从首页切换到登陆页的按钮 -->
+		<locator type="ByXpath" timeOut="30" value=".//*[@id='header-user-wrap']/div/span[1]/a">clickToLoginButton</locator> 
+		
+		<!-- 主页 -->
+		<locator type="ByXpath" timeOut="30" value="html/body/div[1]/div/ul/li[1]/a">MainPage</locator>
+	</page>
+</map>

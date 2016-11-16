@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+<Appenders>
+	<Console name="Console" target="SYSTEM_OUT">
+		<PatternLayout pattern="$${date:yyyy-MM HH:mm:ss} [%t] %-5level %logger{36} - %msg%n"/>
+    </Console>
+	<File name="log" fileName="logs/test.log" append="false">
+		<PatternLayout pattern="%$${date:yyyy-MM HH:mm:ss} %-5level %class{36} %L %M - %msg%xEx%n"/>
+	</File>	
+		<RollingFile name="RollingFile" fileName="logs/webq.log" filePattern="dist/$${date:yyyy-MM}/webqlog-%d{MM-dd-yyyy}-%i.log.gz">
+					<PatternLayout pattern="[%-5p] %d %c - %m%n" />
+							<Policies>
+								<TimeBasedTriggeringPolicy />
+								<SizeBasedTriggeringPolicy size="25 KB" />
+							</Policies>
+					 <DefaultRolloverStrategy max="20"/>
+		</RollingFile>
+	</Appenders>    
+<Loggers>
+	<Logger name="Webq.Page.forLoggerPage" level="all">
+		<AppenderRef ref="Console"/>
+		<AppenderRef ref="log"/>
+		<AppenderRef ref="RollingFile"/>
+    </Logger>
+	<Logger name="Webq.utils.Log" level="all">
+		<AppenderRef ref="Console"/>
+		<AppenderRef ref="log"/>
+		<AppenderRef ref="RollingFile"/>
+    </Logger>
+	<Root level="trace">
+		<AppenderRef ref="Console"/>
+		<AppenderRef ref="log"/>
+		<AppenderRef ref="RollingFile"/>
+    </Root>
+  </Loggers>
+</Configuration>

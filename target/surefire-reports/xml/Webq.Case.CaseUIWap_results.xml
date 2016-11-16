@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestGroups"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="6.844">
+  <properties />
+  
+  
+            <testcase name="TestWebqPageHomeCheckPerUrlWap" time="0.966" classname="Webq.Case.CaseUIWap" />
+                <testcase name="TestWebqPageHomeCheckLogoSizeWap" time="0.048" classname="Webq.Case.CaseUIWap" />
+                <testcase name="TestWebqPageHomeLoginCheckPresentUrlWap" time="5.726" classname="Webq.Case.CaseUIWap" />
+                <testcase name="TestWebqLoginOutWap" time="0.000" classname="Webq.Case.CaseUIWap" />
+                <testcase name="TestWebqPageHomeCheckHeadTitleWap" time="0.104" classname="Webq.Case.CaseUIWap" />
+      
+</testsuite>

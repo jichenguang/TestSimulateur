@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="13" passed="13">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="6897" started-at="2016-11-16T10:40:45Z" finished-at="2016-11-16T10:40:52Z">
+    <groups>
+    </groups>
+    <test name="TestGroups" duration-ms="6897" started-at="2016-11-16T10:40:45Z" finished-at="2016-11-16T10:40:52Z">
+      <class name="Webq.Case.CaseUIWap">
+        <test-method status="PASS" signature="init()[pri:0, instance:Webq.Case.CaseUIWap@5b202a3a]" name="init" is-config="true" duration-ms="587" started-at="2016-11-16T18:40:44Z" finished-at="2016-11-16T18:40:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="TestWebqPageHomeLoginCheckPresentUrlWap()[pri:0, instance:Webq.Case.CaseUIWap@5b202a3a]" name="TestWebqPageHomeLoginCheckPresentUrlWap" duration-ms="5726" started-at="2016-11-16T18:40:45Z" finished-at="2016-11-16T18:40:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestWebqPageHomeLoginCheckPresentUrlWap -->
+        <test-method status="PASS" signature="TestWebqPageHomeCheckHeadTitleWap()[pri:0, instance:Webq.Case.CaseUIWap@5b202a3a]" name="TestWebqPageHomeCheckHeadTitleWap" duration-ms="104" started-at="2016-11-16T18:40:51Z" finished-at="2016-11-16T18:40:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestWebqPageHomeCheckHeadTitleWap -->
+        <test-method status="PASS" signature="TestWebqPageHomeCheckLogoSizeWap()[pri:0, instance:Webq.Case.CaseUIWap@5b202a3a]" name="TestWebqPageHomeCheckLogoSizeWap" duration-ms="48" started-at="2016-11-16T18:40:51Z" finished-at="2016-11-16T18:40:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestWebqPageHomeCheckLogoSizeWap -->
+        <test-method status="PASS" signature="TestWebqPageHomeCheckPerUrlWap()[pri:0, instance:Webq.Case.CaseUIWap@5b202a3a]" name="TestWebqPageHomeCheckPerUrlWap" duration-ms="966" started-at="2016-11-16T18:40:51Z" finished-at="2016-11-16T18:40:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestWebqPageHomeCheckPerUrlWap -->
+        <test-method status="PASS" signature="TestWebqLoginOutWap()[pri:0, instance:Webq.Case.CaseUIWap@5b202a3a]" name="TestWebqLoginOutWap" duration-ms="0" started-at="2016-11-16T18:40:52Z" finished-at="2016-11-16T18:40:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestWebqLoginOutWap -->
+        <test-method status="PASS" signature="stop()[pri:0, instance:Webq.Case.CaseUIWap@5b202a3a]" name="stop" is-config="true" duration-ms="441" started-at="2016-11-16T18:40:52Z" finished-at="2016-11-16T18:40:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stop -->
+      </class> <!-- Webq.Case.CaseUIWap -->
+    </test> <!-- TestGroups -->
+  </suite> <!-- Suite -->
+  <suite name="Suite (1)" duration-ms="68970" started-at="2016-11-16T10:42:01Z" finished-at="2016-11-16T10:43:10Z">
+    <groups>
+    </groups>
+    <test name="TestGroups" duration-ms="68970" started-at="2016-11-16T10:42:01Z" finished-at="2016-11-16T10:43:10Z">
+      <class name="Webq.Case.CaseWebq">
+        <test-method status="PASS" signature="init()[pri:0, instance:Webq.Case.CaseWebq@6ebf0f36]" name="init" is-config="true" duration-ms="567" started-at="2016-11-16T18:42:00Z" finished-at="2016-11-16T18:42:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="TestWebq1()[pri:0, instance:Webq.Case.CaseWebq@6ebf0f36]" name="TestWebq1" duration-ms="14623" started-at="2016-11-16T18:42:01Z" finished-at="2016-11-16T18:42:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestWebq1 -->
+        <test-method status="PASS" signature="TestWebq2()[pri:0, instance:Webq.Case.CaseWebq@6ebf0f36]" name="TestWebq2" duration-ms="2760" started-at="2016-11-16T18:42:15Z" finished-at="2016-11-16T18:42:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestWebq2 -->
+        <test-method status="PASS" signature="TestWebq3()[pri:0, instance:Webq.Case.CaseWebq@6ebf0f36]" name="TestWebq3" duration-ms="51582" started-at="2016-11-16T18:42:18Z" finished-at="2016-11-16T18:43:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestWebq3 -->
+        <test-method status="PASS" signature="TestWebq4()[pri:0, instance:Webq.Case.CaseWebq@6ebf0f36]" name="TestWebq4" duration-ms="0" started-at="2016-11-16T18:43:10Z" finished-at="2016-11-16T18:43:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestWebq4 -->
+        <test-method status="PASS" signature="stop()[pri:0, instance:Webq.Case.CaseWebq@6ebf0f36]" name="stop" is-config="true" duration-ms="382" started-at="2016-11-16T18:43:10Z" finished-at="2016-11-16T18:43:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stop -->
+      </class> <!-- Webq.Case.CaseWebq -->
+    </test> <!-- TestGroups -->
+  </suite> <!-- Suite (1) -->
+  <suite name="Suite (0)" duration-ms="67128" started-at="2016-11-16T10:40:53Z" finished-at="2016-11-16T10:42:00Z">
+    <groups>
+    </groups>
+    <test name="TestGroups" duration-ms="67128" started-at="2016-11-16T10:40:53Z" finished-at="2016-11-16T10:42:00Z">
+      <class name="Webq.Case.CaseWAP">
+        <test-method status="PASS" signature="init()[pri:0, instance:Webq.Case.CaseWAP@1d730606]" name="init" is-config="true" duration-ms="450" started-at="2016-11-16T18:40:52Z" finished-at="2016-11-16T18:40:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="TestWap1()[pri:0, instance:Webq.Case.CaseWAP@1d730606]" name="TestWap1" duration-ms="1815" started-at="2016-11-16T18:40:53Z" finished-at="2016-11-16T18:40:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestWap1 -->
+        <test-method status="PASS" signature="TestWap2()[pri:0, instance:Webq.Case.CaseWAP@1d730606]" name="TestWap2" duration-ms="12349" started-at="2016-11-16T18:40:55Z" finished-at="2016-11-16T18:41:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestWap2 -->
+        <test-method status="PASS" signature="TestWap3()[pri:0, instance:Webq.Case.CaseWAP@1d730606]" name="TestWap3" duration-ms="52957" started-at="2016-11-16T18:41:07Z" finished-at="2016-11-16T18:42:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestWap3 -->
+        <test-method status="PASS" signature="TestWap4()[pri:0, instance:Webq.Case.CaseWAP@1d730606]" name="TestWap4" duration-ms="0" started-at="2016-11-16T18:42:00Z" finished-at="2016-11-16T18:42:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestWap4 -->
+        <test-method status="PASS" signature="stop()[pri:0, instance:Webq.Case.CaseWAP@1d730606]" name="stop" is-config="true" duration-ms="272" started-at="2016-11-16T18:42:00Z" finished-at="2016-11-16T18:42:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stop -->
+      </class> <!-- Webq.Case.CaseWAP -->
+    </test> <!-- TestGroups -->
+  </suite> <!-- Suite (0) -->
+</testng-results>
