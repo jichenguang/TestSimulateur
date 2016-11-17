@@ -46,10 +46,12 @@ public class PageOrder {
 	/**
 	 * action:提交订单
 	 * @param driver
+	 * @throws InterruptedException 
 	 */
-	public static void subOrder() {
+	public static void subOrder() throws InterruptedException {
 		// TODO Auto-generated method stub
 		System.out.println("已经进入结算页面");
+		Thread.sleep(3000);
 		WebElement ButtonSubOrder = ElementPageOrder.getButtonSubOrder(OrderDriver);
 //		ButtonSubOrder.click();
 		jse.executeScript("arguments[0].click();", ButtonSubOrder); 
