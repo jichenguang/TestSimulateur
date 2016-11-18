@@ -29,6 +29,12 @@
 	
 
 	<dependencies>
+			<!-- arrow本地jar包，需要手工引入到.m2的response库 -->
+			<dependency>  
+			      <groupId>arrow</groupId>  
+			      <artifactId>arrow</artifactId>  
+			      <version>0.1.0</version>  
+			   </dependency>  
 			<!-- https://mvnrepository.com/artifact/junit/junit -->
 				<dependency>
 				    <groupId>junit</groupId>
@@ -92,11 +98,15 @@
             </exclusions>
         </dependency>
         <dependency>
+            <groupId>velocity</groupId>
+            <artifactId>velocity</artifactId>
+            <version>1.4</version>
+        </dependency>
+        <dependency>
             <groupId>com.google.inject</groupId>
             <artifactId>guice</artifactId>
             <version>4.0-beta5</version>
         </dependency>		
-
 		<dependency>
 			<groupId>io.appium</groupId>
 			<artifactId>java-client</artifactId>
@@ -161,26 +171,44 @@
 		    <artifactId>maven-surefire-report-plugin</artifactId>
 		    <version>2.19.1</version>
 		</dependency>
+		<!-- 配置arrow必须的依赖包 -->
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.16</version>
+<!-- 			<scope>provided</scope> -->
+		</dependency>
+
+		<dependency>
+			<groupId>com.thoughtworks.qdox</groupId>
+			<artifactId>qdox</artifactId>
+			<version>1.12.1</version>
+			<scope>compile</scope>
+		</dependency>
+
 		
 	</dependencies>
 	<build>
+	<defaultGoal>compile</defaultGoal>
+	<!-- 这个别乱写 ，会导致程序目录整体出错-->
+	<!-- <sourceDirectory>src</sourceDirectory> -->
 	
-
 	<resources>
-			<!-- <resource> 
-				是否替换资源中的属性
-                <filtering>true</filtering>  
-                <directory>src/resources</directory>  
-                <includes>  
-                    <include>*.*</include>  
-                </includes>  
-            </resource>  
-            <resource>  
-                <directory>test</directory>  
-                <includes>  
-                    <include>*.*</include>  
-                </includes>  
-            </resource>  --> 
+			<!-- arrow需要的日志配置 -->
+			<resource>
+				<directory>src</directory>
+				<filtering>true</filtering>
+				<includes>
+					<include>log4j.properties</include>
+				</includes>
+			</resource>
+<!-- 		      <resource>		        
+		        <directory>lib</directory>
+		        <filtering>true</filtering>
+		        <includes>
+		          <include>arrow-0.1.0.jar</include>
+		        </includes>
+		      </resource> -->
             <!-- 	当pom打包的时候遇到没有src文件的时候，可以考虑强制加上这个路径。 -->
 			<!-- 	参考：http://blog.csdn.net/chenjianandiyi/article/details/53113685 -->	
             <resource>
@@ -201,7 +229,22 @@
                      </includes> 
                     <filtering>true</filtering>       
             </resource>
+            <!-- <resource> 
+				是否替换资源中的属性
+                <filtering>true</filtering>  
+                <directory>src/resources</directory>  
+                <includes>  
+                    <include>*.*</include>  
+                </includes>  
+            </resource>  
+            <resource>  
+                <directory>test</directory>  
+                <includes>  
+                    <include>*.*</include>  
+                </includes>  
+            </resource>  --> 
         </resources>
+        
 	
 		<plugins>
 		
@@ -223,9 +266,38 @@
 					<!--<compilerArguments>
 	                   	<extdirs>/Users/700sfriend/Webb/lib</extdirs>
 	                </compilerArguments> -->
+	                <compilerArguments>
+                   		<extdirs>${basedir}/webq.wap/lib</extdirs>
+                   		<extdirs>${basedir}/lib</extdirs>
+               		</compilerArguments>
 				</configuration>
+				<dependencies>
+					<dependency>
+						<groupId>org.codehaus.plexus</groupId>
+						<artifactId>plexus-compiler-eclipse</artifactId>
+						<version>2.2</version>
+					</dependency>
+				</dependencies>
 			</plugin>
+			
+			
+			<!-- arrow的依赖包插件配置 -->
+						<plugin>
+							<groupId>org.apache.maven.plugins</groupId>
+							<artifactId>maven-shade-plugin</artifactId>
+							<version>2.1</version>
+							<executions>
+								<execution>
+									<phase>package</phase>
+									<goals>
+										<goal>shade</goal>
+									</goals>
+								</execution>
+							</executions>
+						</plugin>
 
+								
+				<!-- 插件：用例调度，reportNG -->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
