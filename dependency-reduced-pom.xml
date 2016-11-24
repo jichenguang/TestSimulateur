@@ -132,6 +132,17 @@
       </exclusions>
     </dependency>
   </dependencies>
+  <reporting>
+    <plugins>
+      <plugin>
+        <artifactId>maven-surefire-report-plugin</artifactId>
+        <version>2.12.2</version>
+        <configuration>
+          <showSuccess>false</showSuccess>
+        </configuration>
+      </plugin>
+    </plugins>
+  </reporting>
   <properties>
     <maven.test.skip>false</maven.test.skip>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>

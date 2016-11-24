@@ -67,8 +67,8 @@ public class CommonLogin {
 				System.out.println("重试：切换到首页");							
 				driver.get(StoreUrl);
 			}finally{
-				Thread.sleep(1000);
-				driver.navigate().refresh();
+				Thread.sleep(3000);
+//				driver.navigate().refresh();
 				loginPage.isPrestentProfile();
 			}
 

@@ -69,7 +69,7 @@ public class PageHome extends BasePage {
 		clickAndHoldProfile();
 		
 		System.out.println("￥￥￥￥￥打开主页");
-		driver.navigate().refresh();
+//		driver.navigate().refresh();
 		click(MainPage);
 		log.info("跳转到主页");
 	}

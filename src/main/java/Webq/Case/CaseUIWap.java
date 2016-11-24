@@ -5,6 +5,7 @@ import org.testng.annotations.Test;
 import org.apache.poi.util.SystemOutLogger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.Reporter;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
@@ -18,6 +19,7 @@ import Webq.Page.PageLoginWap;
 import Webq.Page.WapPageHome;
 import Webq.Page.WebqPageHome;
 import Webq.utils.DriverFactory;
+import Webq.utils.ReportNGLog;
 import Webq.utils.TestNGListener;
 import Webq.utils.UITest;
 
@@ -58,7 +60,7 @@ public class CaseUIWap extends UITest {
 	/*直接使用首页*/
 	@Test
 	public void TestWebqPageHomeCheckHeadTitleWap() throws Exception {
-		System.err.println("检查首页的Title");
+		Reporter.log("检查首页的Title");
 		WapPageHome tsPageHomeWap = new WapPageHome(driver);
 		tsPageHomeWap.getHeadPageHomeWap();
 	}

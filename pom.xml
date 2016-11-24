@@ -19,6 +19,20 @@
         <maven.test.skip>false</maven.test.skip>
   </properties>
   
+  
+  <!-- JUit报告 -->
+	<reporting>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-report-plugin</artifactId>
+				<version>2.12.2</version>
+					<configuration>
+					<showSuccess>false</showSuccess>
+					</configuration>
+			</plugin>
+		</plugins>
+	</reporting>
 
 	<developers>
 		<developer>
@@ -245,9 +259,9 @@
             </resource>  --> 
         </resources>
         
+        
 	
-		<plugins>
-		
+		<plugins>		
 			<plugin>
                 <artifactId>maven-resources-plugin</artifactId>
                 <version>2.7</version>
