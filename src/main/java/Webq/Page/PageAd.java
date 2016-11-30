@@ -1,5 +1,7 @@
 package Webq.Page;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -34,6 +36,12 @@ public class PageAd {
 			jse = (JavascriptExecutor)driver; 
 			
 			/*购物车流程*/
+			/**
+			 * @author 700sfriend
+			 * 这一句等待的代码，是我尝试写在这里的。之前没有这句代码的的时候，代码走到这里总是报超时错误。
+			 * @time  2016-11-30
+			 */
+			cartDriver.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
 			openProductAd();
 			checkSellOnce();			
 		}
@@ -43,6 +51,12 @@ public class PageAd {
 			jse = (JavascriptExecutor)driver; 
 			
 			/*商品广告页流程*/
+			/**
+			 * @author 700sfriend
+			 * 这一句等待的代码，是我尝试写在这里的。之前没有这句代码的的时候，代码走到这里总是报超时错误。
+			 * @time  2016-11-30
+			 */
+			cartDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 			openProductAdWap();
 			checkSellOnceWap();			
 		}

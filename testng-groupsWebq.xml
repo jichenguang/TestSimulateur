@@ -11,7 +11,12 @@
 				  <include  name = "TestWebq4"/>
 				</methods>
 			</class>
-			
 		</classes>
 	</test>
+				<!-- 使用arrow，如果用例断言失败将会重试 -->	
+			<listeners> 
+				<listener class-name="com.netease.qa.testng.TestResultListener" />
+				<listener class-name="com.netease.qa.testng.RetryListener" />
+				<listener class-name="com.netease.qa.testng.PowerEmailableReporter" />
+			</listeners>
 </suite>

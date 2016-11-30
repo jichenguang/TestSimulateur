@@ -1,5 +1,7 @@
 package Webq.Page;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -30,6 +32,7 @@ public class PageTransitional {
 			cartDriver = driver;
 			jse = (JavascriptExecutor)driver; 
 			
+			cartDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 			CartSuccess();
 			IsOverCart();
 			ToCart();
@@ -42,6 +45,7 @@ public class PageTransitional {
 		 */
 		public static WebElement CartSuccess() {
 		// TODO Auto-generated method stub
+			cartDriver.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
 			WebElement checkText = ElementPageTransitional.getCheckText(cartDriver);			
 			return checkText;		   
 		}

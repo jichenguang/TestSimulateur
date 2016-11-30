@@ -1,5 +1,7 @@
 package Webq.Page;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -101,6 +103,7 @@ public class PageOrderLists {
 	public static void PageOrderDetails() throws InterruptedException{
 		// TODO Auto-generated method stub
 		System.out.println("进入订单详情页");
+		OrderDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		WebElement ButtonOrderDetails = ElementPageOrderLists.getButtonOrderDetails(OrderDriver);		
 		System.out.println(ButtonOrderDetails.getText());
 		if(ButtonOrderDetails.getText()!=null){	
@@ -130,6 +133,7 @@ public class PageOrderLists {
 	public static void intoPageOrderDetailsWap() throws InterruptedException{
 		// TODO Auto-generated method stub
 		System.out.println("进入订单详情页");
+		OrderDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		WebElement ButtonOrderDetails = ElementPageOrderLists.getButtonOrderDetailsWap(OrderDriver);		
 		System.out.println(ButtonOrderDetails.getText());
 		if(ButtonOrderDetails.getText()!=null){	

@@ -315,10 +315,10 @@
 %$ INFO  Webq.utils.Log 25 info - Webq.utils.TestNGListener: Test Success
 %$ INFO  Webq.utils.Log 25 info - Webq.utils.TestNGListener: Test Finish
 %$ INFO  Webq.utils.Log 25 info - Webq.utils.TestNGListener: PassedTests = TestWebqPageHomeCheckHeadTitleWap
-%$ INFO  Webq.utils.Log 25 info - Webq.utils.TestNGListener: PassedTests = TestWebqPageHomeLoginCheckPresentUrlWap
-%$ INFO  Webq.utils.Log 25 info - Webq.utils.TestNGListener: PassedTests = TestWebqLoginOutWap
 %$ INFO  Webq.utils.Log 25 info - Webq.utils.TestNGListener: PassedTests = TestWebqPageHomeCheckLogoSizeWap
+%$ INFO  Webq.utils.Log 25 info - Webq.utils.TestNGListener: PassedTests = TestWebqLoginOutWap
 %$ INFO  Webq.utils.Log 25 info - Webq.utils.TestNGListener: PassedTests = TestWebqPageHomeCheckPerUrlWap
+%$ INFO  Webq.utils.Log 25 info - Webq.utils.TestNGListener: PassedTests = TestWebqPageHomeLoginCheckPresentUrlWap
 %$ INFO  Webq.utils.Log 25 info - Webq.Case.CaseUIWap: Stop WebDriver
 %$ INFO  Webq.utils.Log 25 info - Webq.Case.CaseWAP: Start WebDriver
 %$ INFO  Webq.utils.Log 25 info - Webq.utils.TestNGListener: Test Start
@@ -403,6 +403,8 @@
 %$ INFO  Webq.utils.Log 25 info - Webq.utils.xmlUtils: locator Name is TitleStore
 %$ INFO  Webq.utils.Log 25 info - Webq.utils.TestNGListener: Test Success
 %$ INFO  Webq.utils.Log 25 info - Webq.utils.TestNGListener: Test Finsh
+%$ ERROR Webq.utils.Log 41 error - Webq.utils.TestNGListener: Test Skipped
+%$ INFO  Webq.utils.Log 25 info - Webq.utils.TestNGListener: Test Finsh
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Page.PageAd: #############################################
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Page.PageAd: http://webq.700paper.cn/wap/meishuguan
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Page.PageAd: #############################################
@@ -438,9 +440,8 @@
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: 元素名称是：cart gridtable  获取的元素路径是：.//div[@id='cartList']//table[@class = 'cart gridtable']
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: ########
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: 元素名称是：美术馆 杏仁白 M
-¥999.99 x 4
-产品缺货  获取的元素路径是：.//div[@id='cartList']//table[@class = 'cart gridtable']//tr[2]
+%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: 元素名称是：美术馆 石砚灰 XL 活动
+¥3299.00 x 2  获取的元素路径是：.//div[@id='cartList']//table[@class = 'cart gridtable']//tr[2]
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: ########
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: ########
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: 元素名称是：cart-add  获取的元素路径是：.//div[@id='cartList']//table[@class = 'cart gridtable']//tr[2]//a[@class = 'cart-add']
@@ -457,20 +458,19 @@
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrder: 元素名称是：提交订单  获取的元素路径是：.//*[@id='divSubmitOrder']
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrder: ########
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Page.PageOrderLists: 进入Wap订单列表页
-%$ ERROR Webq.Page.forLoggerPage 42 error - Webq.Page.PageOrderLists: 进入订单列表失败，开始重试！
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Page.PageOrderLists: 成功进入订单列表页
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderLists: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderLists: 元素名称是：QWA7001170819137  .//*[@id='orderList']/div[1]/div[1]/a
+%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderLists: 元素名称是：QWA7009170822903  .//*[@id='orderList']/div[1]/div[1]/a
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderLists: ########
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: 元素名称是：QWA7001170819137  .//*[@id='spanOrderNumber']
+%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: 元素名称是：QWA7009170822903  .//*[@id='spanOrderNumber']
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Page.PageAd: 订单号：QWA7001170819137
+%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Page.PageAd: 订单号：QWA7009170822903
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Page.PageAd: 开始取消订单。
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: 元素名称是：QWA7001170819137  .//*[@id='spanOrderNumber']
+%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: 元素名称是：QWA7009170822903  .//*[@id='spanOrderNumber']
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Page.PageAd: 订单号：QWA7001170819137
+%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Page.PageAd: 订单号：QWA7009170822903
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: ########
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: 元素名称是：取消订单  .//*[@class='btn cancel_order_btn']
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: ########
@@ -482,10 +482,10 @@
 %$ INFO  Webq.utils.Log 25 info - Webq.utils.TestNGListener: Test Finsh
 %$ INFO  Webq.utils.Log 25 info - Webq.utils.TestNGListener: Test Success
 %$ INFO  Webq.utils.Log 25 info - Webq.utils.TestNGListener: Test Finish
-%$ INFO  Webq.utils.Log 25 info - Webq.utils.TestNGListener: PassedTests = TestWap1
 %$ INFO  Webq.utils.Log 25 info - Webq.utils.TestNGListener: PassedTests = TestWap2
 %$ INFO  Webq.utils.Log 25 info - Webq.utils.TestNGListener: PassedTests = TestWap4
 %$ INFO  Webq.utils.Log 25 info - Webq.utils.TestNGListener: PassedTests = TestWap3
+%$ INFO  Webq.utils.Log 25 info - Webq.utils.TestNGListener: PassedTests = TestWap1
 %$ INFO  Webq.utils.Log 25 info - Webq.Case.CaseWAP: Stop WebDriver
 %$ INFO  Webq.utils.Log 25 info - Webq.Case.CaseWebq: Start WebDriver
 %$ INFO  Webq.utils.Log 25 info - Webq.utils.TestNGListener: Test Start
@@ -545,9 +545,6 @@
 %$ DEBUG Webq.utils.Log 33 debug - Webq.Page.PageLogin: ! 元素的路径是：.//*[@id='form1']/div[2]
 %$ DEBUG Webq.utils.Log 33 debug - Webq.Page.PageLogin: find element By xpath
 %$ INFO  Webq.utils.Log 25 info - Webq.Page.PageLogin: click button
-%$ DEBUG Webq.utils.Log 33 debug - Webq.Page.PageLogin: ！元素名称是：.//div[@class = 'user_logined']
-%$ DEBUG Webq.utils.Log 33 debug - Webq.Page.PageLogin: ! 元素的路径是：.//div[@class = 'user_logined']
-%$ DEBUG Webq.utils.Log 33 debug - Webq.Page.PageLogin: find element By xpath
 %$ DEBUG Webq.utils.Log 33 debug - Webq.Page.PageLogin: ！元素名称是：.//div[@class = 'user_logined']
 %$ DEBUG Webq.utils.Log 33 debug - Webq.Page.PageLogin: ! 元素的路径是：.//div[@class = 'user_logined']
 %$ DEBUG Webq.utils.Log 33 debug - Webq.Page.PageLogin: find element By xpath
@@ -636,7 +633,7 @@
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: 元素名称是：石砚灰  获取的元素路径是：.//*[@id='buyMod']//div[@id='selecTedColor']
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: numberColours:3
+%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: numberColours:2
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: .//*[@id='buyMod']//ul[@class='buy-info-list  buy-info-color-wrap buy-info-list-color']//li[1]//span
@@ -650,19 +647,7 @@
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: 备选的颜色：蟒袍绿
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: .//*[@id='buyMod']//ul[@class='buy-info-list  buy-info-color-wrap buy-info-list-color']//li[3]//span
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: 备选的颜色：杏仁白
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Page.PageProduct: 选择的颜色是： 杏仁白
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: 元素名称是：杏仁白  获取的元素路径是：.//*[@id='buyMod']//div[@id='selecTedColor']
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Page.PageProduct: 当前的颜色是：杏仁白
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Page.PageProduct: 菜单未打开
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Page.PageProduct: 当前的颜色与选择的杏仁白色一致！
+%$ ERROR Webq.Page.forLoggerPage 42 error - Webq.Page.PageProduct: 商品库存状态无异常。
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: 元素名称是：加入购物车  获取的元素路径是：.//*[@id='add_cart']
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
@@ -718,7 +703,7 @@
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: 元素名称是：石砚灰  获取的元素路径是：.//*[@id='buyMod']//div[@id='selecTedColor']
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: numberColours:3
+%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: numberColours:2
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: .//*[@id='buyMod']//ul[@class='buy-info-list  buy-info-color-wrap buy-info-list-color']//li[1]//span
@@ -732,13 +717,13 @@
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: 备选的颜色：蟒袍绿
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
+%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Page.PageProduct: 选择的颜色是： 石砚灰
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: .//*[@id='buyMod']//ul[@class='buy-info-list  buy-info-color-wrap buy-info-list-color']//li[3]//span
+%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: 元素名称是：石砚灰  获取的元素路径是：.//*[@id='buyMod']//div[@id='selecTedColor']
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: 备选的颜色：杏仁白
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
-%$ ERROR Webq.Page.forLoggerPage 42 error - Webq.Page.PageProduct: 商品库存状态无异常。
+%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Page.PageProduct: 当前的颜色是：石砚灰
+%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Page.PageProduct: 菜单未打开
+%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Page.PageProduct: 当前的颜色与选择的石砚灰色一致！
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: 元素名称是：加入购物车  获取的元素路径是：.//*[@id='add_cart']
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
@@ -759,10 +744,10 @@
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: 元素名称是：gridtable  获取的元素路径是：.//div[@id='cartList']//table[@class = 'gridtable']
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: ########
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: 元素名称是：美术馆 杏仁白 M
-999.99
-产品缺货
-3999.96  获取的元素路径是：.//div[@id='cartList']//table[@class = 'gridtable']//tr[2]
+%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: 元素名称是：美术馆 石砚灰 XL
+活动
+3299.00
+6598.00  获取的元素路径是：.//div[@id='cartList']//table[@class = 'gridtable']//tr[2]
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: ########
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: ########
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: 元素名称是：cart-add  获取的元素路径是：.//div[@id='cartList']//table[@class = 'gridtable']//tr[2]//a[@class = 'cart-add']
@@ -791,14 +776,14 @@
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderLists: 元素名称是：查看详情  .//*[@id='orderList']/div[1]/div[4]/div[3]/a
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderLists: ########
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: 元素名称是：现货订单:QPC7007580795104  .//*[@id='orderNumber']
+%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: 元素名称是：现货订单:QPC7006770799691  .//*[@id='orderNumber']
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Page.PageAd: 订单号：QPC7007580795104
+%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Page.PageAd: 订单号：QPC7006770799691
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Page.PageAd: 开始取消订单。
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: 元素名称是：现货订单:QPC7007580795104  .//*[@id='orderNumber']
+%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: 元素名称是：现货订单:QPC7006770799691  .//*[@id='orderNumber']
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Page.PageAd: 订单号：QPC7007580795104
+%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Page.PageAd: 订单号：QPC7006770799691
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: ########
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: 元素名称是：取消订单  .//*[@id='btnCancelOrder']
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: ########
@@ -814,7 +799,7 @@
 %$ INFO  Webq.utils.Log 25 info - Webq.utils.TestNGListener: Test Success
 %$ INFO  Webq.utils.Log 25 info - Webq.utils.TestNGListener: Test Finish
 %$ INFO  Webq.utils.Log 25 info - Webq.utils.TestNGListener: PassedTests = TestWebq1
-%$ INFO  Webq.utils.Log 25 info - Webq.utils.TestNGListener: PassedTests = TestWebq4
 %$ INFO  Webq.utils.Log 25 info - Webq.utils.TestNGListener: PassedTests = TestWebq3
 %$ INFO  Webq.utils.Log 25 info - Webq.utils.TestNGListener: PassedTests = TestWebq2
+%$ INFO  Webq.utils.Log 25 info - Webq.utils.TestNGListener: PassedTests = TestWebq4
 %$ INFO  Webq.utils.Log 25 info - Webq.Case.CaseWebq: Stop WebDriver

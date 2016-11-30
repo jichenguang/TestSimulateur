@@ -58,17 +58,14 @@ public class PageProduct {
 //			System.out.println("拍错代码拍错代码拍错代码拍错代码拍错代码");
 			DoCheckStatesStock();
 			DoButtonAddCart();
-
 			
 			/*
-			 * 增加跳转WAP购物车的步骤
+			 * 人为跳转WAP购物车
 			 */
 			String cartWapUrl = "http://webq.700paper.cn/wap/cart";
 			cartDriver.get(cartWapUrl);
 			log.debug("跳转到购物车页");
-			
-			
-		
+	
 		}
 	
 
