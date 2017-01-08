@@ -44,7 +44,7 @@ public class CaseWebq extends UITest {
 //	@BeforeMethod(alwaysRun = true)
 	@BeforeSuite(alwaysRun = true)
 	public void init() {		
-		super.init(driver);
+		super.init(driver); 
 		CommonPageHome.setDriver(driver);
 		 /*浏览器最大化*/
 		driver.manage().window().maximize();
@@ -59,6 +59,9 @@ public class CaseWebq extends UITest {
 		 OpLogin opLogin = new OpLogin(driver);
 		 opLogin.actionLogin();
 	}
+	
+	/*清空购物车*/
+	
 	
 	/*商品详情页*/
 	@Test

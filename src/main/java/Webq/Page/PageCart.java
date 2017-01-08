@@ -36,11 +36,18 @@ public class PageCart {
 			jse = (JavascriptExecutor)driver; 
 			
 			
-			/*购物车流程*/		
+			/*购物车流程*/	
 			CartCrease();
-			CartToOrder();		
+			CartToOrder();	
+			//CartDelAll();
 		}
 	
+		public  static void CartDelAll() {
+			// TODO Auto-generated method stub
+			cartDriver.findElement(By.xpath(".//*[@id='cart-del']")).click();
+			cartDriver.findElement(By.xpath(".//*[@id='btnDialogBySHFConfirm']")).click();
+		}
+
 		public static  void PlCartWap(WebDriver driver) throws InterruptedException{
 			cartDriver = driver;
 			jse = (JavascriptExecutor)driver; 

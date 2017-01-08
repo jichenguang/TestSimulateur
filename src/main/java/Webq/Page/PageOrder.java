@@ -3,6 +3,8 @@ package Webq.Page;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.testng.Assert;
+
 import Webq.Element.ElementPageOrder;
 
 public class PageOrder {
@@ -24,6 +26,10 @@ public class PageOrder {
 		OrderDriver = driver;
 		jse= (JavascriptExecutor)driver; 
 		
+		/*优惠信息，检查是否支持优惠信息选项*/
+		checkYouHui();
+		/*商品清单，检查商品图片信息*/
+		checkLinkFromPic();
 //		点击结算页“提交”按钮；
 		subOrder();
 //		获取支付页面文案；
@@ -32,7 +38,7 @@ public class PageOrder {
 //		PageOrderPay.checkOrder();		
 	}
 
-	
+
 	public static void PlOrderWap(WebDriver driver) throws InterruptedException {
 		// TODO Auto-generated method stub
 		
@@ -43,6 +49,27 @@ public class PageOrder {
 		subOrderWap();	
 	}
 
+	
+	private static void checkYouHui() {
+		// TODO Auto-generated method stub
+		System.out.println("检查优惠信息是否生效");
+		WebElement TextYouHui =  ElementPageOrder.getTextYouHui(OrderDriver);
+		String Checkor = TextYouHui.getText();
+		Assert.assertEquals(Checkor, "优惠信息");
+	}
+
+
+	private static void checkLinkFromPic() {
+		// TODO Auto-generated method stub
+		System.out.println("检查商品清单的链接");
+		WebElement LinkFromPic  =   ElementPageOrder.getLinkFromPic(OrderDriver);
+		String TextLink = LinkFromPic.getAttribute("href").toString();
+		String ExcepedStr = "http://webq.700paper.cn/booking/15641.html";
+		Assert.assertEquals(TextLink, ExcepedStr,"img商品链接不一致");
+	}
+	
+	
+	
 	/**
 	 * action:提交订单
 	 * @param driver

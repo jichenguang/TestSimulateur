@@ -20,6 +20,8 @@ public class ElementPageOrder {
 	 * 订单页面的元素
 	 */
 	private static WebElement ButtonSubOrder = null;
+	private static WebElement TextYouHui = null;
+	private static WebElement LinkFromPic;
 
 	
 	/**
@@ -54,6 +56,22 @@ public class ElementPageOrder {
 		message = "元素名称是："+ButtonSubOrder.getText()+"  "+"获取的元素路径是："+str;
 		printLog(message);
 		return ButtonSubOrder;
+	}
+
+	public static WebElement getTextYouHui(WebDriver orderDriver) {
+		// TODO Auto-generated method stub
+		String str = ".//*[@class='order_list_title']";
+		TextYouHui = orderDriver.findElement(By.xpath(str));
+		message =  "元素名称是："+TextYouHui.getText()+"  "+"获取的元素路径是："+str;	
+		return TextYouHui;
+	}
+
+	public static WebElement getLinkFromPic(WebDriver orderDriver) {
+		// TODO Auto-generated method stub
+		String str = ".//*[@id='order']/table/tbody/tr/td[1]/a";
+		LinkFromPic = orderDriver.findElement(By.xpath(str));
+		message = "元素名称是："+LinkFromPic.getTagName()+"  "+"获取的元素路径是："+str;	
+		return LinkFromPic;
 	}
 	
 	

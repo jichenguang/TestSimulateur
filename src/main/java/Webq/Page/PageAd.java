@@ -41,7 +41,7 @@ public class PageAd {
 			 * 这一句等待的代码，是我尝试写在这里的。之前没有这句代码的的时候，代码走到这里总是报超时错误。
 			 * @time  2016-11-30
 			 */
-			cartDriver.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
+			cartDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 			openProductAd();
 			checkSellOnce();			
 		}
@@ -80,7 +80,6 @@ public class PageAd {
 			// TODO Auto-generated method stub
 	//		进入美术馆页面		
 			String meishuguan = "http://webq.700paper.cn/wap/meishuguan";
-			Thread.sleep(1000);
 			cartDriver.get(meishuguan);
 			log.info("#############################################");
 			log.info(meishuguan);
@@ -104,7 +103,7 @@ public class PageAd {
 		
 		public static void checkSellOnceWap() throws InterruptedException {
 			// TODO Auto-generated method stub
-			String lolbtn = ".//div[@class = 'buy-btn']";
+			String lolbtn = "html/body/div[2]/div/div[2]/a";
 //			立即购买按钮
 			WebElement SellOnceButton = ElementPageAd.getSellOnceButtonWap(cartDriver,lolbtn);	
 			if(SellOnceButton.getText()!=null){
