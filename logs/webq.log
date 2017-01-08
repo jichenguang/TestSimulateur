@@ -1,110 +1,165 @@
-[INFO ] 2017-01-08 19:57:51,477 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: .//*[@id='buyMod']//ul[@class='buy-info-list  buy-info-color-wrap buy-info-list-color']//li[1]//span
-[INFO ] 2017-01-08 19:57:51,482 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-08 19:57:51,505 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-08 19:57:51,505 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: 备选的颜色：石砚灰
-[INFO ] 2017-01-08 19:57:51,506 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-08 19:57:51,506 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-08 19:57:51,506 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: .//*[@id='buyMod']//ul[@class='buy-info-list  buy-info-color-wrap buy-info-list-color']//li[2]//span
-[INFO ] 2017-01-08 19:57:51,506 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-08 19:57:51,523 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-08 19:57:51,524 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: 备选的颜色：杏仁白
-[INFO ] 2017-01-08 19:57:51,524 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-08 19:57:51,524 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-08 19:57:51,524 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: .//*[@id='buyMod']//ul[@class='buy-info-list  buy-info-color-wrap buy-info-list-color']//li[3]//span
-[INFO ] 2017-01-08 19:57:51,524 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-08 19:57:51,544 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-08 19:57:51,544 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: 备选的颜色：蟒袍绿
-[INFO ] 2017-01-08 19:57:51,544 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[ERROR] 2017-01-08 19:58:01,561 Webq.Page.PageProduct - Webq.Page.PageProduct: 商品库存状态无异常。
-[INFO ] 2017-01-08 19:58:01,596 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-08 19:58:01,596 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: 元素名称是：加入购物车  获取的元素路径是：.//*[@id='add_cart']
-[INFO ] 2017-01-08 19:58:01,596 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-08 19:58:01,651 Webq.Page.PageProduct - Webq.Page.PageProduct: 已经点击加入购物车按钮
-[ERROR] 2017-01-08 19:58:05,498 Webq.utils.TestNGListener - Webq.utils.TestNGListener: Test Skipped
-[INFO ] 2017-01-08 19:58:05,500 Webq.utils.TestNGListener - Webq.utils.TestNGListener: Test Finsh
-[INFO ] 2017-01-08 19:58:05,844 Webq.Page.PageAd - Webq.Page.PageAd: #############################################
-[INFO ] 2017-01-08 19:58:05,844 Webq.Page.PageAd - Webq.Page.PageAd: http://webq.700paper.cn/meishuguan
-[INFO ] 2017-01-08 19:58:05,845 Webq.Page.PageAd - Webq.Page.PageAd: #############################################
-[INFO ] 2017-01-08 19:58:05,878 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: ########
-[INFO ] 2017-01-08 19:58:05,879 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: 元素名称是：立即购买  获取的元素路径是：html/body/div[2]/div/div/div[2]/a
-[INFO ] 2017-01-08 19:58:05,879 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: ########
-[ERROR] 2017-01-08 19:58:05,943 Webq.Page.PageProduct - Webq.Page.PageProduct: 获取面包屑失败
-[INFO ] 2017-01-08 19:58:06,269 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-08 19:58:06,270 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: 元素名称是：popwin 获取的元素路径是：.//div[@class='popwin']
-[INFO ] 2017-01-08 19:58:06,271 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-08 19:58:06,291 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-08 19:58:06,291 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: 元素名称是：  获取的元素路径是：.//div[@class='popwin']//div[@class ='popwin-content']
-[INFO ] 2017-01-08 19:58:06,291 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-08 19:58:06,310 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-08 19:58:06,310 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: 元素名称是：  获取的元素路径是：.//div[@class='popwin']//div[@class = 'popwin-btn']
-[INFO ] 2017-01-08 19:58:06,311 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-08 19:58:06,334 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-08 19:58:06,334 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: 元素名称是：popwin 获取的元素路径是：.//div[@class='popwin']
-[INFO ] 2017-01-08 19:58:06,334 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-08 19:58:06,356 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-08 19:58:06,357 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: 元素名称是：  获取的元素路径是：.//div[@class='popwin']//div[@class ='popwin-content']
-[INFO ] 2017-01-08 19:58:06,357 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-08 19:58:07,802 Webq.Page.PageProduct - Webq.Page.PageProduct: 
-[INFO ] 2017-01-08 19:58:07,818 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-08 19:58:07,819 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: 元素名称是：popwin 获取的元素路径是：.//div[@class='popwin']
-[INFO ] 2017-01-08 19:58:07,819 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-08 19:58:07,833 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-08 19:58:07,833 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: 元素名称是：  获取的元素路径是：.//div[@class='popwin']//div[@class ='popwin-content']
-[INFO ] 2017-01-08 19:58:07,834 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-08 19:58:07,851 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-08 19:58:07,852 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: 元素名称是：  获取的元素路径是：.//div[@class='popwin']//div[@class = 'popwin-btn']
-[INFO ] 2017-01-08 19:58:07,852 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-08 19:58:07,868 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-08 19:58:07,868 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: 元素名称是：  获取的元素路径是：.//div[@class='popwin']//div[@class = 'popwin-btn']
-[INFO ] 2017-01-08 19:58:07,868 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-08 19:58:07,880 Webq.Page.PageProduct - Webq.Page.PageProduct: 库存不足，正在重新选择商品！
-[INFO ] 2017-01-08 19:58:07,894 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-08 19:58:07,895 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: 元素名称是：div  获取的元素路径是：.//*[@id='buyMod']
-[INFO ] 2017-01-08 19:58:07,895 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-08 19:58:07,923 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-08 19:58:07,923 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: 元素名称是：石砚灰  获取的元素路径是：.//*[@id='buyMod']//div[@id='selecTedColor']
-[INFO ] 2017-01-08 19:58:07,924 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-08 19:58:07,953 Webq.Page.PageProduct - Webq.Page.PageProduct: 菜单未打开
-[INFO ] 2017-01-08 19:58:07,968 Webq.Page.PageProduct - Webq.Page.PageProduct: 菜单未打开
-[INFO ] 2017-01-08 19:58:07,968 Webq.Page.PageProduct - Webq.Page.PageProduct: 点击打开菜单
-[INFO ] 2017-01-08 19:58:07,989 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-08 19:58:07,990 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: 元素名称是：石砚灰  获取的元素路径是：.//*[@id='buyMod']//div[@id='selecTedColor']
-[INFO ] 2017-01-08 19:58:07,990 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-08 19:58:08,014 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-08 19:58:08,014 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: numberColours:3
-[INFO ] 2017-01-08 19:58:08,014 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-08 19:58:08,015 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-08 19:58:08,015 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: .//*[@id='buyMod']//ul[@class='buy-info-list  buy-info-color-wrap buy-info-list-color']//li[1]//span
-[INFO ] 2017-01-08 19:58:08,015 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-08 19:58:08,033 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-08 19:58:08,033 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: 备选的颜色：石砚灰
-[INFO ] 2017-01-08 19:58:08,033 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-08 19:58:08,034 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-08 19:58:08,034 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: .//*[@id='buyMod']//ul[@class='buy-info-list  buy-info-color-wrap buy-info-list-color']//li[2]//span
-[INFO ] 2017-01-08 19:58:08,034 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-08 19:58:08,052 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-08 19:58:08,052 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: 备选的颜色：杏仁白
-[INFO ] 2017-01-08 19:58:08,052 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-08 19:58:08,053 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-08 19:58:08,053 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: .//*[@id='buyMod']//ul[@class='buy-info-list  buy-info-color-wrap buy-info-list-color']//li[3]//span
-[INFO ] 2017-01-08 19:58:08,053 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-08 19:58:08,070 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-08 19:58:08,071 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: 备选的颜色：蟒袍绿
-[INFO ] 2017-01-08 19:58:08,071 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[ERROR] 2017-01-08 19:58:18,106 Webq.Page.PageProduct - Webq.Page.PageProduct: 商品库存状态无异常。
-[INFO ] 2017-01-08 19:58:18,144 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-08 19:58:18,144 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: 元素名称是：加入购物车  获取的元素路径是：.//*[@id='add_cart']
-[INFO ] 2017-01-08 19:58:18,145 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-08 19:58:18,197 Webq.Page.PageProduct - Webq.Page.PageProduct: 已经点击加入购物车按钮
-[ERROR] 2017-01-08 19:58:20,263 Webq.utils.TestNGListener - Webq.utils.TestNGListener: Test Failure
-[INFO ] 2017-01-08 19:58:20,279 Webq.Case.CaseWebq - Webq.Case.CaseWebq: /Users/700sfriend/Desktop/work/MyDEV/workspace-sts-3.7.1.RELEASE/webq.wap
-[INFO ] 2017-01-08 19:58:20,763 Webq.Case.CaseWebq - Webq.Case.CaseWebq: save snapshot path is:/Users/700sfriend/Desktop/work/MyDEV/workspace-sts-3.7.1.RELEASE/webq.wapCaseWebq_2017_01_08_19_58_20.png
-[INFO ] 2017-01-08 19:58:20,780 Webq.Case.CaseWebq - Webq.Case.CaseWebq: screen shot finished
-[INFO ] 2017-01-08 19:58:20,785 Webq.utils.TestNGListener - Webq.utils.TestNGListener: Test Finsh
-[INFO ] 2017-01-08 19:58:20,786 Webq.utils.TestNGListener - Webq.utils.TestNGListener: Test Success
-[INFO ] 2017-01-08 19:58:20,788 Webq.utils.TestNGListener - Webq.utils.TestNGListener: Test Finish
-[INFO ] 2017-01-08 19:58:20,789 Webq.utils.TestNGListener - Webq.utils.TestNGListener: PassedTests = TestWebq4
-[INFO ] 2017-01-08 19:58:20,789 Webq.utils.TestNGListener - Webq.utils.TestNGListener: PassedTests = TestWebq1
-[INFO ] 2017-01-08 19:58:20,790 Webq.utils.TestNGListener - Webq.utils.TestNGListener: PassedTests = TestWebq2
-[INFO ] 2017-01-08 19:58:20,791 Webq.utils.TestNGListener - Webq.utils.TestNGListener: failedTest = TestWebq3
-[INFO ] 2017-01-08 19:58:20,800 Webq.Case.CaseWebq - Webq.Case.CaseWebq: Stop WebDriver
+[INFO ] 2017-01-08 20:33:14,066 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator value .//*[@id='password']
+[INFO ] 2017-01-08 20:33:14,090 Webq.utils.xmlUtils - Webq.utils.xmlUtils: locator Name is loginPasswordInputBox
+[INFO ] 2017-01-08 20:33:14,091 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator type ByXpath
+[INFO ] 2017-01-08 20:33:14,091 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator timeOut 3
+[INFO ] 2017-01-08 20:33:14,092 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator value .//*[@id='form1']/div[2]
+[INFO ] 2017-01-08 20:33:14,092 Webq.utils.xmlUtils - Webq.utils.xmlUtils: locator Name is loginButton
+[INFO ] 2017-01-08 20:33:14,093 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator type ByXpath
+[INFO ] 2017-01-08 20:33:14,093 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator timeOut 3
+[INFO ] 2017-01-08 20:33:14,094 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator value .//*[@id='form1']/div[2]
+[INFO ] 2017-01-08 20:33:14,094 Webq.utils.xmlUtils - Webq.utils.xmlUtils: locator Name is wgjTitl
+[INFO ] 2017-01-08 20:33:14,095 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator type ByXpath
+[INFO ] 2017-01-08 20:33:14,096 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator timeOut 3
+[INFO ] 2017-01-08 20:33:14,096 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator value .//div[@class = 'user_logined']
+[INFO ] 2017-01-08 20:33:14,096 Webq.utils.xmlUtils - Webq.utils.xmlUtils: locator Name is profile
+[INFO ] 2017-01-08 20:33:14,097 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator type ByXpath
+[INFO ] 2017-01-08 20:33:14,097 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator timeOut 30
+[INFO ] 2017-01-08 20:33:14,098 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator value .//*[@id='header-user-wrap']/div/span[1]/a
+[INFO ] 2017-01-08 20:33:14,098 Webq.utils.xmlUtils - Webq.utils.xmlUtils: locator Name is clickToLoginButton
+[INFO ] 2017-01-08 20:33:14,099 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator type ByXpath
+[INFO ] 2017-01-08 20:33:14,099 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator timeOut 30
+[INFO ] 2017-01-08 20:33:14,100 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator value html/body/div[1]/div/ul/li[1]/a
+[INFO ] 2017-01-08 20:33:14,100 Webq.utils.xmlUtils - Webq.utils.xmlUtils: locator Name is MainPage
+[INFO ] 2017-01-08 20:33:15,644 Webq.Page.PageLogin - Webq.Page.PageLogin: executing request http://test.bbs.700bike.com/
+[INFO ] 2017-01-08 20:33:15,660 Webq.Page.PageLogin - Webq.Page.PageLogin: --------------------------------------
+[INFO ] 2017-01-08 20:33:15,660 Webq.Page.PageLogin - Webq.Page.PageLogin: HTTP/1.1 200 OK
+[INFO ] 2017-01-08 20:33:15,661 Webq.Page.PageLogin - Webq.Page.PageLogin: Response content length: -1
+[INFO ] 2017-01-08 20:33:15,662 Webq.Page.PageLogin - Webq.Page.PageLogin: ------------------------------------
+[ERROR] 2017-01-08 20:33:15,662 Webq.Page.PageLogin - Webq.Page.PageLogin: 检查环境配置的地址有没有变化
+[DEBUG] 2017-01-08 20:33:15,663 Webq.Page.PageLogin - Webq.Page.PageLogin: ！元素名称是：clickToLoginButton
+[DEBUG] 2017-01-08 20:33:15,664 Webq.Page.PageLogin - Webq.Page.PageLogin: ! 元素的路径是：.//*[@id='header-user-wrap']/div/span[1]/a
+[DEBUG] 2017-01-08 20:33:15,664 Webq.Page.PageLogin - Webq.Page.PageLogin: find element By xpath
+[INFO ] 2017-01-08 20:33:15,690 Webq.Page.PageLogin - Webq.Page.PageLogin: click button
+[DEBUG] 2017-01-08 20:33:15,744 Webq.Page.PageLogin - Webq.Page.PageLogin: ！元素名称是：loginEmailInputBox
+[DEBUG] 2017-01-08 20:33:15,745 Webq.Page.PageLogin - Webq.Page.PageLogin: ! 元素的路径是：.//*[@id='phone']
+[DEBUG] 2017-01-08 20:33:15,745 Webq.Page.PageLogin - Webq.Page.PageLogin: find element By xpath
+[INFO ] 2017-01-08 20:33:15,855 Webq.Page.PageLogin - Webq.Page.PageLogin: type value is:  13157741542
+[DEBUG] 2017-01-08 20:33:16,062 Webq.Page.PageLogin - Webq.Page.PageLogin: ！元素名称是：loginPasswordInputBox
+[DEBUG] 2017-01-08 20:33:16,063 Webq.Page.PageLogin - Webq.Page.PageLogin: ! 元素的路径是：.//*[@id='password']
+[DEBUG] 2017-01-08 20:33:16,064 Webq.Page.PageLogin - Webq.Page.PageLogin: find element By xpath
+[INFO ] 2017-01-08 20:33:16,085 Webq.Page.PageLogin - Webq.Page.PageLogin: type value is:  ji123456
+[DEBUG] 2017-01-08 20:33:16,168 Webq.Page.PageLogin - Webq.Page.PageLogin: ！元素名称是：loginButton
+[DEBUG] 2017-01-08 20:33:16,169 Webq.Page.PageLogin - Webq.Page.PageLogin: ! 元素的路径是：.//*[@id='form1']/div[2]
+[DEBUG] 2017-01-08 20:33:16,169 Webq.Page.PageLogin - Webq.Page.PageLogin: find element By xpath
+[INFO ] 2017-01-08 20:33:16,180 Webq.Page.PageLogin - Webq.Page.PageLogin: click button
+[DEBUG] 2017-01-08 20:33:16,253 Webq.Page.PageLogin - Webq.Page.PageLogin: ！元素名称是：.//div[@class = 'user_logined']
+[DEBUG] 2017-01-08 20:33:16,254 Webq.Page.PageLogin - Webq.Page.PageLogin: ! 元素的路径是：.//div[@class = 'user_logined']
+[DEBUG] 2017-01-08 20:33:16,254 Webq.Page.PageLogin - Webq.Page.PageLogin: find element By xpath
+[DEBUG] 2017-01-08 20:33:21,156 Webq.Page.PageLogin - Webq.Page.PageLogin: ！元素名称是：.//div[@class = 'user_logined']
+[DEBUG] 2017-01-08 20:33:21,157 Webq.Page.PageLogin - Webq.Page.PageLogin: ! 元素的路径是：.//div[@class = 'user_logined']
+[DEBUG] 2017-01-08 20:33:21,158 Webq.Page.PageLogin - Webq.Page.PageLogin: find element By xpath
+[DEBUG] 2017-01-08 20:33:24,197 Webq.Page.PageLogin - Webq.Page.PageLogin: ！元素名称是：.//div[@class = 'user_logined']
+[DEBUG] 2017-01-08 20:33:24,198 Webq.Page.PageLogin - Webq.Page.PageLogin: ! 元素的路径是：.//div[@class = 'user_logined']
+[DEBUG] 2017-01-08 20:33:24,199 Webq.Page.PageLogin - Webq.Page.PageLogin: find element By xpath
+[DEBUG] 2017-01-08 20:33:24,225 Webq.Page.PageLogin - Webq.Page.PageLogin: ！元素名称是：.//div[@class = 'user_logined']
+[DEBUG] 2017-01-08 20:33:24,225 Webq.Page.PageLogin - Webq.Page.PageLogin: ! 元素的路径是：.//div[@class = 'user_logined']
+[DEBUG] 2017-01-08 20:33:24,226 Webq.Page.PageLogin - Webq.Page.PageLogin: find element By xpath
+[DEBUG] 2017-01-08 20:33:24,265 Webq.Page.PageHome - Webq.Page.PageHome: Webq.Page.PageHome
+[INFO ] 2017-01-08 20:33:24,265 Webq.Page.PageHome - Webq.Page.PageHome: /Users/700sfriend/Desktop/work/MyDEV/workspace-sts-3.7.1.RELEASE/webq.wap
+[INFO ] 2017-01-08 20:33:24,266 Webq.Page.PageHome - Webq.Page.PageHome: /Users/700sfriend/Desktop/work/MyDEV/workspace-sts-3.7.1.RELEASE/webq.wap/src/main/java/Webq/Page/PageHome.xml
+[INFO ] 2017-01-08 20:33:24,266 Webq.utils.xmlUtils - Webq.utils.xmlUtils: Webq.Page.PageHome
+[INFO ] 2017-01-08 20:33:24,269 Webq.utils.xmlUtils - Webq.utils.xmlUtils: page Info is:Webq.Page.PageHome
+[INFO ] 2017-01-08 20:33:24,270 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator type ByXpath
+[INFO ] 2017-01-08 20:33:24,270 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator timeOut 3
+[INFO ] 2017-01-08 20:33:24,271 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator value .//*[@id='nav-index']
+[INFO ] 2017-01-08 20:33:24,272 Webq.utils.xmlUtils - Webq.utils.xmlUtils: locator Name is MainPage
+[INFO ] 2017-01-08 20:33:24,272 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator type ByXpath
+[INFO ] 2017-01-08 20:33:24,273 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator timeOut 3
+[INFO ] 2017-01-08 20:33:24,273 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator value .//*[@id='header-nav']/li[8]/a
+[INFO ] 2017-01-08 20:33:24,273 Webq.utils.xmlUtils - Webq.utils.xmlUtils: locator Name is BBStoStore
+[INFO ] 2017-01-08 20:33:24,274 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator type ByXpath
+[INFO ] 2017-01-08 20:33:24,274 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator timeOut 3
+[INFO ] 2017-01-08 20:33:24,274 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator value html/head/title
+[INFO ] 2017-01-08 20:33:24,275 Webq.utils.xmlUtils - Webq.utils.xmlUtils: locator Name is TitleStore
+[DEBUG] 2017-01-08 20:33:24,275 Webq.Page.PageHome - Webq.Page.PageHome: ！元素名称是：html/body/div[1]/div/div/div[3]
+[DEBUG] 2017-01-08 20:33:24,275 Webq.Page.PageHome - Webq.Page.PageHome: ! 元素的路径是：html/body/div[1]/div/div/div[3]
+[DEBUG] 2017-01-08 20:33:24,276 Webq.Page.PageHome - Webq.Page.PageHome: find element By xpath
+[ERROR] 2017-01-08 20:33:34,367 Webq.utils.TestNGListener - Webq.utils.TestNGListener: Test Skipped
+[INFO ] 2017-01-08 20:33:34,375 Webq.utils.TestNGListener - Webq.utils.TestNGListener: Test Finsh
+[DEBUG] 2017-01-08 20:33:34,376 Webq.Page.PageLogin - Webq.Page.PageLogin: Webq.Page.PageLogin
+[INFO ] 2017-01-08 20:33:34,376 Webq.Page.PageLogin - Webq.Page.PageLogin: /Users/700sfriend/Desktop/work/MyDEV/workspace-sts-3.7.1.RELEASE/webq.wap
+[INFO ] 2017-01-08 20:33:34,377 Webq.Page.PageLogin - Webq.Page.PageLogin: /Users/700sfriend/Desktop/work/MyDEV/workspace-sts-3.7.1.RELEASE/webq.wap/src/main/java/Webq/Page/PageLogin.xml
+[INFO ] 2017-01-08 20:33:34,377 Webq.utils.xmlUtils - Webq.utils.xmlUtils: Webq.Page.PageLogin
+[INFO ] 2017-01-08 20:33:34,380 Webq.utils.xmlUtils - Webq.utils.xmlUtils: page Info is:Webq.Page.PageLogin
+[INFO ] 2017-01-08 20:33:34,380 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator type ByXpath
+[INFO ] 2017-01-08 20:33:34,380 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator timeOut 3
+[INFO ] 2017-01-08 20:33:34,381 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator value .//*[@id='phone']
+[INFO ] 2017-01-08 20:33:34,381 Webq.utils.xmlUtils - Webq.utils.xmlUtils: locator Name is loginEmailInputBox
+[INFO ] 2017-01-08 20:33:34,381 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator type ByXpath
+[INFO ] 2017-01-08 20:33:34,381 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator timeOut 3
+[INFO ] 2017-01-08 20:33:34,382 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator value .//*[@id='password']
+[INFO ] 2017-01-08 20:33:34,382 Webq.utils.xmlUtils - Webq.utils.xmlUtils: locator Name is loginPasswordInputBox
+[INFO ] 2017-01-08 20:33:34,382 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator type ByXpath
+[INFO ] 2017-01-08 20:33:34,383 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator timeOut 3
+[INFO ] 2017-01-08 20:33:34,383 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator value .//*[@id='form1']/div[2]
+[INFO ] 2017-01-08 20:33:34,383 Webq.utils.xmlUtils - Webq.utils.xmlUtils: locator Name is loginButton
+[INFO ] 2017-01-08 20:33:34,384 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator type ByXpath
+[INFO ] 2017-01-08 20:33:34,385 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator timeOut 3
+[INFO ] 2017-01-08 20:33:34,385 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator value .//*[@id='form1']/div[2]
+[INFO ] 2017-01-08 20:33:34,386 Webq.utils.xmlUtils - Webq.utils.xmlUtils: locator Name is wgjTitl
+[INFO ] 2017-01-08 20:33:34,386 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator type ByXpath
+[INFO ] 2017-01-08 20:33:34,386 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator timeOut 3
+[INFO ] 2017-01-08 20:33:34,386 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator value .//div[@class = 'user_logined']
+[INFO ] 2017-01-08 20:33:34,387 Webq.utils.xmlUtils - Webq.utils.xmlUtils: locator Name is profile
+[INFO ] 2017-01-08 20:33:34,387 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator type ByXpath
+[INFO ] 2017-01-08 20:33:34,387 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator timeOut 30
+[INFO ] 2017-01-08 20:33:34,387 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator value .//*[@id='header-user-wrap']/div/span[1]/a
+[INFO ] 2017-01-08 20:33:34,388 Webq.utils.xmlUtils - Webq.utils.xmlUtils: locator Name is clickToLoginButton
+[INFO ] 2017-01-08 20:33:34,388 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator type ByXpath
+[INFO ] 2017-01-08 20:33:34,389 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator timeOut 30
+[INFO ] 2017-01-08 20:33:34,389 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator value html/body/div[1]/div/ul/li[1]/a
+[INFO ] 2017-01-08 20:33:34,390 Webq.utils.xmlUtils - Webq.utils.xmlUtils: locator Name is MainPage
+[INFO ] 2017-01-08 20:33:34,956 Webq.Page.PageLogin - Webq.Page.PageLogin: executing request http://test.bbs.700bike.com/
+[INFO ] 2017-01-08 20:33:34,970 Webq.Page.PageLogin - Webq.Page.PageLogin: --------------------------------------
+[INFO ] 2017-01-08 20:33:34,971 Webq.Page.PageLogin - Webq.Page.PageLogin: HTTP/1.1 200 OK
+[INFO ] 2017-01-08 20:33:34,971 Webq.Page.PageLogin - Webq.Page.PageLogin: Response content length: -1
+[INFO ] 2017-01-08 20:33:34,972 Webq.Page.PageLogin - Webq.Page.PageLogin: ------------------------------------
+[ERROR] 2017-01-08 20:33:34,973 Webq.Page.PageLogin - Webq.Page.PageLogin: 检查环境配置的地址有没有变化
+[DEBUG] 2017-01-08 20:33:34,973 Webq.Page.PageLogin - Webq.Page.PageLogin: ！元素名称是：clickToLoginButton
+[DEBUG] 2017-01-08 20:33:34,974 Webq.Page.PageLogin - Webq.Page.PageLogin: ! 元素的路径是：.//*[@id='header-user-wrap']/div/span[1]/a
+[DEBUG] 2017-01-08 20:33:34,974 Webq.Page.PageLogin - Webq.Page.PageLogin: find element By xpath
+[INFO ] 2017-01-08 20:33:34,995 Webq.Page.PageLogin - Webq.Page.PageLogin: click button
+[DEBUG] 2017-01-08 20:33:35,021 Webq.Page.PageLogin - Webq.Page.PageLogin: ！元素名称是：loginEmailInputBox
+[DEBUG] 2017-01-08 20:33:35,022 Webq.Page.PageLogin - Webq.Page.PageLogin: ! 元素的路径是：.//*[@id='phone']
+[DEBUG] 2017-01-08 20:33:35,022 Webq.Page.PageLogin - Webq.Page.PageLogin: find element By xpath
+[INFO ] 2017-01-08 20:33:35,270 Webq.Page.PageLogin - Webq.Page.PageLogin: type value is:  13157741542
+[DEBUG] 2017-01-08 20:33:35,332 Webq.Page.PageLogin - Webq.Page.PageLogin: ！元素名称是：loginPasswordInputBox
+[DEBUG] 2017-01-08 20:33:35,332 Webq.Page.PageLogin - Webq.Page.PageLogin: ! 元素的路径是：.//*[@id='password']
+[DEBUG] 2017-01-08 20:33:35,333 Webq.Page.PageLogin - Webq.Page.PageLogin: find element By xpath
+[INFO ] 2017-01-08 20:33:35,345 Webq.Page.PageLogin - Webq.Page.PageLogin: type value is:  ji123456
+[DEBUG] 2017-01-08 20:33:35,390 Webq.Page.PageLogin - Webq.Page.PageLogin: ！元素名称是：loginButton
+[DEBUG] 2017-01-08 20:33:35,390 Webq.Page.PageLogin - Webq.Page.PageLogin: ! 元素的路径是：.//*[@id='form1']/div[2]
+[DEBUG] 2017-01-08 20:33:35,391 Webq.Page.PageLogin - Webq.Page.PageLogin: find element By xpath
+[INFO ] 2017-01-08 20:33:35,402 Webq.Page.PageLogin - Webq.Page.PageLogin: click button
+[DEBUG] 2017-01-08 20:33:35,465 Webq.Page.PageLogin - Webq.Page.PageLogin: ！元素名称是：.//div[@class = 'user_logined']
+[DEBUG] 2017-01-08 20:33:35,465 Webq.Page.PageLogin - Webq.Page.PageLogin: ! 元素的路径是：.//div[@class = 'user_logined']
+[DEBUG] 2017-01-08 20:33:35,466 Webq.Page.PageLogin - Webq.Page.PageLogin: find element By xpath
+[DEBUG] 2017-01-08 20:33:43,754 Webq.Page.PageLogin - Webq.Page.PageLogin: ！元素名称是：.//div[@class = 'user_logined']
+[DEBUG] 2017-01-08 20:33:43,762 Webq.Page.PageLogin - Webq.Page.PageLogin: ! 元素的路径是：.//div[@class = 'user_logined']
+[DEBUG] 2017-01-08 20:33:43,763 Webq.Page.PageLogin - Webq.Page.PageLogin: find element By xpath
+[DEBUG] 2017-01-08 20:33:46,810 Webq.Page.PageLogin - Webq.Page.PageLogin: ！元素名称是：.//div[@class = 'user_logined']
+[DEBUG] 2017-01-08 20:33:46,811 Webq.Page.PageLogin - Webq.Page.PageLogin: ! 元素的路径是：.//div[@class = 'user_logined']
+[DEBUG] 2017-01-08 20:33:46,811 Webq.Page.PageLogin - Webq.Page.PageLogin: find element By xpath
+[DEBUG] 2017-01-08 20:33:46,847 Webq.Page.PageLogin - Webq.Page.PageLogin: ！元素名称是：.//div[@class = 'user_logined']
+[DEBUG] 2017-01-08 20:33:46,848 Webq.Page.PageLogin - Webq.Page.PageLogin: ! 元素的路径是：.//div[@class = 'user_logined']
+[DEBUG] 2017-01-08 20:33:46,848 Webq.Page.PageLogin - Webq.Page.PageLogin: find element By xpath
+[DEBUG] 2017-01-08 20:33:46,870 Webq.Page.PageHome - Webq.Page.PageHome: Webq.Page.PageHome
+[INFO ] 2017-01-08 20:33:46,871 Webq.Page.PageHome - Webq.Page.PageHome: /Users/700sfriend/Desktop/work/MyDEV/workspace-sts-3.7.1.RELEASE/webq.wap
+[INFO ] 2017-01-08 20:33:46,871 Webq.Page.PageHome - Webq.Page.PageHome: /Users/700sfriend/Desktop/work/MyDEV/workspace-sts-3.7.1.RELEASE/webq.wap/src/main/java/Webq/Page/PageHome.xml
+[INFO ] 2017-01-08 20:33:46,872 Webq.utils.xmlUtils - Webq.utils.xmlUtils: Webq.Page.PageHome
+[INFO ] 2017-01-08 20:33:46,876 Webq.utils.xmlUtils - Webq.utils.xmlUtils: page Info is:Webq.Page.PageHome
+[INFO ] 2017-01-08 20:33:46,876 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator type ByXpath
+[INFO ] 2017-01-08 20:33:46,877 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator timeOut 3
+[INFO ] 2017-01-08 20:33:46,877 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator value .//*[@id='nav-index']
+[INFO ] 2017-01-08 20:33:46,877 Webq.utils.xmlUtils - Webq.utils.xmlUtils: locator Name is MainPage
+[INFO ] 2017-01-08 20:33:46,878 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator type ByXpath
+[INFO ] 2017-01-08 20:33:46,878 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator timeOut 3
+[INFO ] 2017-01-08 20:33:46,878 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator value .//*[@id='header-nav']/li[8]/a
+[INFO ] 2017-01-08 20:33:46,879 Webq.utils.xmlUtils - Webq.utils.xmlUtils: locator Name is BBStoStore
+[INFO ] 2017-01-08 20:33:46,879 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator type ByXpath
+[INFO ] 2017-01-08 20:33:46,880 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator timeOut 3
+[INFO ] 2017-01-08 20:33:46,880 Webq.utils.xmlUtils - Webq.utils.xmlUtils: get locator value html/head/title
+[INFO ] 2017-01-08 20:33:46,880 Webq.utils.xmlUtils - Webq.utils.xmlUtils: locator Name is TitleStore
+[DEBUG] 2017-01-08 20:33:46,881 Webq.Page.PageHome - Webq.Page.PageHome: ！元素名称是：html/body/div[1]/div/div/div[3]
+[DEBUG] 2017-01-08 20:33:46,881 Webq.Page.PageHome - Webq.Page.PageHome: ! 元素的路径是：html/body/div[1]/div/div/div[3]
+[DEBUG] 2017-01-08 20:33:46,881 Webq.Page.PageHome - Webq.Page.PageHome: find element By xpath

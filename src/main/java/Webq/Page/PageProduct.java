@@ -40,7 +40,6 @@ public class PageProduct {
 				log.error("获取面包屑失败");
 				}
 			
-//			System.out.println("拍错代码拍错代码拍错代码拍错代码拍错代码");
 			DoCheckStatesStock();
 			DoButtonAddCart();				
 		}

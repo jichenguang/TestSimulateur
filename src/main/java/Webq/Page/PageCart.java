@@ -39,13 +39,14 @@ public class PageCart {
 			/*购物车流程*/	
 			CartCrease();
 			CartToOrder();	
-			//CartDelAll();
 		}
 	
 		public  static void CartDelAll() {
 			// TODO Auto-generated method stub
+			System.out.println("清除购物车");
 			cartDriver.findElement(By.xpath(".//*[@id='cart-del']")).click();
-			cartDriver.findElement(By.xpath(".//*[@id='btnDialogBySHFConfirm']")).click();
+			WebElement ButtonConfirm = cartDriver.findElement(By.xpath(".//*[@id='btnDialogBySHFConfirm']"));
+			jse.executeScript("arguments[0].click();", ButtonConfirm);
 		}
 
 		public static  void PlCartWap(WebDriver driver) throws InterruptedException{

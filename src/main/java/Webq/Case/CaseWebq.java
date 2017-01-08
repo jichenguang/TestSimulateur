@@ -58,9 +58,11 @@ public class CaseWebq extends UITest {
 		 System.err.println("1");
 		 OpLogin opLogin = new OpLogin(driver);
 		 opLogin.actionLogin();
+		 driver.get("http://webq.700paper.cn/cart");
+		 PageCart.CartDelAll();
+		 driver.get("http://webq.700paper.cn/index");
 	}
 	
-	/*清空购物车*/
 	
 	
 	/*商品详情页*/
