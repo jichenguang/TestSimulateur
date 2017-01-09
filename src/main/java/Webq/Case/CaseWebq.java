@@ -57,10 +57,9 @@ public class CaseWebq extends UITest {
 	public void TestWebq1() throws Exception {
 		 System.err.println("1");
 		 OpLogin opLogin = new OpLogin(driver);
-		 opLogin.actionLogin();
-		 driver.get("http://webq.700paper.cn/cart");
-		 PageCart.CartDelAll();
-		 driver.get("http://webq.700paper.cn/index");
+		 opLogin.actionLogin();		 
+		 PageCart.ClearCart(driver);
+		 
 	}
 	
 	

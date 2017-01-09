@@ -65,7 +65,7 @@ public class PageOrder {
 		WebElement LinkFromPic  =   ElementPageOrder.getLinkFromPic(OrderDriver);
 		String TextLink = LinkFromPic.getAttribute("href").toString();
 		String ExcepedStr = "http://webq.700paper.cn/booking/15641.html";
-		Assert.assertEquals(TextLink, ExcepedStr,"img商品链接不一致");
+		Assert.assertEquals(TextLink, ExcepedStr,"Img商品链接不一致");
 	}
 	
 	

@@ -5,10 +5,12 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
+import org.testng.Assert;
 import Webq.Element.ElementPageAd;
 import Webq.Element.ElementPageCart;
 import Webq.Element.ElementPageProduct;
 import Webq.Element.ElementPageTransitional;
+
 
 
 public class PageCart {
@@ -23,8 +25,7 @@ public class PageCart {
 		 * 效果是一样的。
 		 */	
 		protected static forLoggerPage log = new forLoggerPage(PageCart.class);
-		
-		
+			
 		
 		/**
 		 * 购物车页面的所有操作
@@ -33,30 +34,72 @@ public class PageCart {
 		 */		
 		public static  void PlCart(WebDriver driver) throws InterruptedException{
 			cartDriver = driver;
-			jse = (JavascriptExecutor)driver; 
-			
-			
+			jse = (JavascriptExecutor)driver; 			
 			/*购物车流程*/	
 			CartCrease();
 			CartToOrder();	
 		}
-	
-		public  static void CartDelAll() {
-			// TODO Auto-generated method stub
-			System.out.println("清除购物车");
-			cartDriver.findElement(By.xpath(".//*[@id='cart-del']")).click();
-			WebElement ButtonConfirm = cartDriver.findElement(By.xpath(".//*[@id='btnDialogBySHFConfirm']"));
-			jse.executeScript("arguments[0].click();", ButtonConfirm);
-		}
-
+		
 		public static  void PlCartWap(WebDriver driver) throws InterruptedException{
 			cartDriver = driver;
 			jse = (JavascriptExecutor)driver; 
-			
-
 			/*购物车流程*/		
 			CartCreaseWap();
 			CartToOrder();		
+		}
+		
+		/**
+		 * 清除购物车，防止商品库存超量
+		 * 先判断是否为空
+		 * 再判断是否需要清空
+		 * @param driver
+		 */
+		public static void ClearCart(WebDriver driver){			
+			cartDriver = driver;			
+			cartDriver.get("http://webq.700paper.cn/cart");
+			
+			if(CartNotFull(cartDriver)==true){
+				log.info("购物车为空，不需要清空");
+			}else{
+				CartDelAll(cartDriver);
+				Assert.assertTrue(CartNotFull(cartDriver), "已清空");
+				log.info("预置条件：购物车已清空");
+			}
+			cartDriver.get("http://webq.700paper.cn/index");
+		}
+
+		/**
+		 * 通过判断页面的内容信息是否出现，来判断购物车是否为空。
+		 * true:如果该元素出现，那么购物车为空
+		 * false:如果该元素没出现，那么购物车不为空
+		 * @param driver
+		 * @return isEmpty
+		 */
+		public static Boolean CartNotFull(WebDriver driver){
+			cartDriver = driver;
+			jse = (JavascriptExecutor)driver;
+			
+			/*购物车为空的节点是否出现呢*/
+			Boolean isEmpty = cartDriver.findElement(By.xpath(".//*[@id='cartIsEmpty']")).isDisplayed();
+			return isEmpty;	
+		}
+
+		/**
+		 * 删除购物车的所有商品
+		 * @param driver
+		 */
+		public  static void CartDelAll(WebDriver driver) {
+			// TODO Auto-generated method stub
+			cartDriver = driver;
+			jse = (JavascriptExecutor)driver;
+			
+			log.info("清除购物车");
+			WebElement ButtonDelAll = cartDriver.findElement(By.xpath(".//*[@id='cart-del']"));
+			log.info("选择的按钮是:"+ButtonDelAll.getText());
+			jse.executeScript("arguments[0].click();", ButtonDelAll);
+			WebElement ButtonConfirm = cartDriver.findElement(By.xpath(".//*[@id='DialogBySHF']")).findElement(By.xpath(".//*[@id='btnDialogBySHFConfirm']"));
+			jse.executeScript("arguments[0].click();", ButtonConfirm);
+
 		}
 		
 		

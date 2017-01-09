@@ -60,7 +60,7 @@ public class ElementPageOrder {
 
 	public static WebElement getTextYouHui(WebDriver orderDriver) {
 		// TODO Auto-generated method stub
-		String str = ".//*[@class='order_list_title']";
+		String str = ".//*[@id='couponInfoSection']/div[1]";
 		TextYouHui = orderDriver.findElement(By.xpath(str));
 		message =  "元素名称是："+TextYouHui.getText()+"  "+"获取的元素路径是："+str;	
 		return TextYouHui;
