@@ -48,7 +48,6 @@ public class ElementPageCart {
 	 */
 	public ElementPageCart(WebDriver cartDriver){
 		
-		/*先选中内容后，再利用Ctr+command+/可以款苏使用这样的注释*/
 		
 		/*构造器主要完成了两件事，第一件是把driver初始化了。这样方法调用本类的方法时，本类方法可以直接调用本类的driver作为参数。*/
 		/*在这里初始化一个driver后，下面的方法里，可以省去不再使用cartDriver参数。*/				

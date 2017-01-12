@@ -1,5 +1,7 @@
 package Webq.Page;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -15,13 +17,13 @@ import Webq.Element.ElementPageTransitional;
 
 public class PageCart {
 		
-	
+		/*页面类三大基本元素*/
 		static PageLogin loginPage;
 		static WebDriver cartDriver; 
 		static JavascriptExecutor jse; 
 		/**
 		 * @author 700sfriend
-		 * 这个log必须是静态的，那么我只能用PageCart.class来取代ew Log(this.getClass())的写法。
+		 * 这个log必须是静态的，那么我只能用PageCart.class来取代new Log(this.getClass())的写法。
 		 * 效果是一样的。
 		 */	
 		protected static forLoggerPage log = new forLoggerPage(PageCart.class);
@@ -35,7 +37,7 @@ public class PageCart {
 		public static  void PlCart(WebDriver driver) throws InterruptedException{
 			cartDriver = driver;
 			jse = (JavascriptExecutor)driver; 			
-			/*购物车流程*/	
+			/*方法集：购物车流程*/	
 			CartCrease();
 			CartToOrder();	
 		}
@@ -80,6 +82,7 @@ public class PageCart {
 			jse = (JavascriptExecutor)driver;
 			
 			/*购物车为空的节点是否出现呢*/
+			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 			Boolean isEmpty = cartDriver.findElement(By.xpath(".//*[@id='cartIsEmpty']")).isDisplayed();
 			return isEmpty;	
 		}

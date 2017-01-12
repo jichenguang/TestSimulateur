@@ -1,171 +1,179 @@
-[INFO ] 2017-01-09 12:07:51,449 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-09 12:07:51,490 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-09 12:07:51,490 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: 备选的颜色：杏仁白
-[INFO ] 2017-01-09 12:07:51,491 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-09 12:07:51,491 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-09 12:07:51,491 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: .//*[@id='buyMod']//ul[@class='buy-info-list  buy-info-color-wrap buy-info-list-color']//li[3]//span
-[INFO ] 2017-01-09 12:07:51,491 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-09 12:07:51,512 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-09 12:07:51,512 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: 备选的颜色：蟒袍绿
-[INFO ] 2017-01-09 12:07:51,512 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-09 12:07:51,521 Webq.Page.PageProduct - Webq.Page.PageProduct: 选择的颜色是： 蟒袍绿
-[INFO ] 2017-01-09 12:07:51,703 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-09 12:07:51,704 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: 元素名称是：蟒袍绿  获取的元素路径是：.//*[@id='buyMod']//div[@id='selecTedColor']
-[INFO ] 2017-01-09 12:07:51,704 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-09 12:07:51,725 Webq.Page.PageProduct - Webq.Page.PageProduct: 当前的颜色是：蟒袍绿
-[INFO ] 2017-01-09 12:07:51,802 Webq.Page.PageProduct - Webq.Page.PageProduct: 菜单未打开
-[INFO ] 2017-01-09 12:07:51,802 Webq.Page.PageProduct - Webq.Page.PageProduct: 当前的颜色与选择的蟒袍绿色一致！
-[INFO ] 2017-01-09 12:07:51,845 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-09 12:07:51,845 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: 元素名称是：加入购物车  获取的元素路径是：.//*[@id='add_cart']
-[INFO ] 2017-01-09 12:07:51,845 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-09 12:07:51,934 Webq.Page.PageProduct - Webq.Page.PageProduct: 已经点击加入购物车按钮
-[INFO ] 2017-01-09 12:07:51,934 Webq.utils.TestNGListener - Webq.utils.TestNGListener: Test Success
-[INFO ] 2017-01-09 12:07:51,935 Webq.utils.TestNGListener - Webq.utils.TestNGListener: Test Finsh
-[INFO ] 2017-01-09 12:07:53,344 Webq.Page.PageAd - Webq.Page.PageAd: #############################################
-[INFO ] 2017-01-09 12:07:53,345 Webq.Page.PageAd - Webq.Page.PageAd: http://webq.700paper.cn/meishuguan
-[INFO ] 2017-01-09 12:07:53,345 Webq.Page.PageAd - Webq.Page.PageAd: #############################################
-[INFO ] 2017-01-09 12:07:53,381 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: ########
-[INFO ] 2017-01-09 12:07:53,382 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: 元素名称是：立即购买  获取的元素路径是：html/body/div[2]/div/div/div[2]/a
-[INFO ] 2017-01-09 12:07:53,382 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: ########
-[ERROR] 2017-01-09 12:07:53,442 Webq.Page.PageProduct - Webq.Page.PageProduct: 获取面包屑失败
-[INFO ] 2017-01-09 12:07:53,834 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-09 12:07:53,836 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: 元素名称是：popwin 获取的元素路径是：.//div[@class='popwin']
-[INFO ] 2017-01-09 12:07:53,836 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-09 12:07:53,856 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-09 12:07:53,857 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: 元素名称是：  获取的元素路径是：.//div[@class='popwin']//div[@class ='popwin-content']
-[INFO ] 2017-01-09 12:07:53,857 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-09 12:07:53,881 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-09 12:07:53,881 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: 元素名称是：  获取的元素路径是：.//div[@class='popwin']//div[@class = 'popwin-btn']
-[INFO ] 2017-01-09 12:07:53,882 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-09 12:07:53,901 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-09 12:07:53,901 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: 元素名称是：popwin 获取的元素路径是：.//div[@class='popwin']
-[INFO ] 2017-01-09 12:07:53,901 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-09 12:07:53,919 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-09 12:07:53,919 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: 元素名称是：  获取的元素路径是：.//div[@class='popwin']//div[@class ='popwin-content']
-[INFO ] 2017-01-09 12:07:53,919 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-09 12:07:54,947 Webq.Page.PageProduct - Webq.Page.PageProduct: 
-[INFO ] 2017-01-09 12:07:54,964 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-09 12:07:54,965 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: 元素名称是：popwin 获取的元素路径是：.//div[@class='popwin']
-[INFO ] 2017-01-09 12:07:54,965 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-09 12:07:54,983 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-09 12:07:54,984 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: 元素名称是：  获取的元素路径是：.//div[@class='popwin']//div[@class ='popwin-content']
-[INFO ] 2017-01-09 12:07:54,984 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-09 12:07:55,004 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-09 12:07:55,005 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: 元素名称是：  获取的元素路径是：.//div[@class='popwin']//div[@class = 'popwin-btn']
-[INFO ] 2017-01-09 12:07:55,005 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-09 12:07:55,029 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-09 12:07:55,029 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: 元素名称是：  获取的元素路径是：.//div[@class='popwin']//div[@class = 'popwin-btn']
-[INFO ] 2017-01-09 12:07:55,030 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-09 12:07:55,040 Webq.Page.PageProduct - Webq.Page.PageProduct: 库存不足，正在重新选择商品！
-[INFO ] 2017-01-09 12:07:55,060 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-09 12:07:55,061 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: 元素名称是：div  获取的元素路径是：.//*[@id='buyMod']
-[INFO ] 2017-01-09 12:07:55,061 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-09 12:07:55,090 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-09 12:07:55,090 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: 元素名称是：石砚灰  获取的元素路径是：.//*[@id='buyMod']//div[@id='selecTedColor']
-[INFO ] 2017-01-09 12:07:55,091 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-09 12:07:55,118 Webq.Page.PageProduct - Webq.Page.PageProduct: 菜单未打开
-[INFO ] 2017-01-09 12:07:55,133 Webq.Page.PageProduct - Webq.Page.PageProduct: 菜单未打开
-[INFO ] 2017-01-09 12:07:55,134 Webq.Page.PageProduct - Webq.Page.PageProduct: 点击打开菜单
-[INFO ] 2017-01-09 12:07:55,156 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-09 12:07:55,156 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: 元素名称是：石砚灰  获取的元素路径是：.//*[@id='buyMod']//div[@id='selecTedColor']
-[INFO ] 2017-01-09 12:07:55,156 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-09 12:07:55,185 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-09 12:07:55,186 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: numberColours:3
-[INFO ] 2017-01-09 12:07:55,186 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-09 12:07:55,187 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-09 12:07:55,187 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: .//*[@id='buyMod']//ul[@class='buy-info-list  buy-info-color-wrap buy-info-list-color']//li[1]//span
-[INFO ] 2017-01-09 12:07:55,187 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-09 12:07:55,206 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-09 12:07:55,207 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: 备选的颜色：石砚灰
-[INFO ] 2017-01-09 12:07:55,207 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-09 12:07:55,207 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-09 12:07:55,208 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: .//*[@id='buyMod']//ul[@class='buy-info-list  buy-info-color-wrap buy-info-list-color']//li[2]//span
-[INFO ] 2017-01-09 12:07:55,208 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-09 12:07:55,226 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-09 12:07:55,227 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: 备选的颜色：杏仁白
-[INFO ] 2017-01-09 12:07:55,227 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-09 12:07:55,227 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-09 12:07:55,227 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: .//*[@id='buyMod']//ul[@class='buy-info-list  buy-info-color-wrap buy-info-list-color']//li[3]//span
-[INFO ] 2017-01-09 12:07:55,228 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-09 12:07:55,245 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-09 12:07:55,246 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: 备选的颜色：蟒袍绿
-[INFO ] 2017-01-09 12:07:55,246 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[ERROR] 2017-01-09 12:08:05,295 Webq.Page.PageProduct - Webq.Page.PageProduct: 商品库存状态无异常。
-[INFO ] 2017-01-09 12:08:05,333 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-09 12:08:05,334 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: 元素名称是：加入购物车  获取的元素路径是：.//*[@id='add_cart']
-[INFO ] 2017-01-09 12:08:05,334 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
-[INFO ] 2017-01-09 12:08:05,416 Webq.Page.PageProduct - Webq.Page.PageProduct: 已经点击加入购物车按钮
-[INFO ] 2017-01-09 12:08:05,761 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: ########
-[INFO ] 2017-01-09 12:08:05,764 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: 元素名称是：商品已经成功加入购物车！  获取的元素路径是：html/body/div[2]/div[1]/div/p[2]
-[INFO ] 2017-01-09 12:08:05,765 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: ########
-[INFO ] 2017-01-09 12:08:05,809 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: ########
-[INFO ] 2017-01-09 12:08:05,809 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: 元素名称是：商品已经成功加入购物车！  获取的元素路径是：html/body/div[2]/div[1]/div/p[2]
-[INFO ] 2017-01-09 12:08:05,809 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: ########
-[INFO ] 2017-01-09 12:08:05,841 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: ########
-[INFO ] 2017-01-09 12:08:05,842 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: 元素名称是：去购物车结算  获取的元素路径是：.//*[@id='toCheckOut']
-[INFO ] 2017-01-09 12:08:05,842 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: ########
-[INFO ] 2017-01-09 12:08:07,787 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: ########
-[INFO ] 2017-01-09 12:08:07,788 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: 元素名称是：cartList  获取的元素路径是：.//div[@id='cartList']
-[INFO ] 2017-01-09 12:08:07,788 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: ########
-[INFO ] 2017-01-09 12:08:07,805 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: ########
-[INFO ] 2017-01-09 12:08:07,806 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: 元素名称是：gridtable  获取的元素路径是：.//div[@id='cartList']//table[@class = 'gridtable']
-[INFO ] 2017-01-09 12:08:07,806 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: ########
-[INFO ] 2017-01-09 12:08:07,916 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: ########
-[INFO ] 2017-01-09 12:08:07,916 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: 元素名称是：美术馆 蟒袍绿 XL
+[INFO ] 2017-01-12 17:40:27,007 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
+[INFO ] 2017-01-12 17:40:27,028 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: .//*[@id='buyMod']//ul[@class='buy-info-list  buy-info-color-wrap buy-info-list-color']//li[1]//span
+[INFO ] 2017-01-12 17:40:27,029 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
+[INFO ] 2017-01-12 17:40:27,063 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
+[INFO ] 2017-01-12 17:40:27,064 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: 备选的颜色：石砚灰
+[INFO ] 2017-01-12 17:40:27,064 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
+[INFO ] 2017-01-12 17:40:27,065 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
+[INFO ] 2017-01-12 17:40:27,065 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: .//*[@id='buyMod']//ul[@class='buy-info-list  buy-info-color-wrap buy-info-list-color']//li[2]//span
+[INFO ] 2017-01-12 17:40:27,065 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
+[INFO ] 2017-01-12 17:40:27,090 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
+[INFO ] 2017-01-12 17:40:27,090 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: 备选的颜色：杏仁白
+[INFO ] 2017-01-12 17:40:27,091 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
+[INFO ] 2017-01-12 17:40:27,091 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
+[INFO ] 2017-01-12 17:40:27,091 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: .//*[@id='buyMod']//ul[@class='buy-info-list  buy-info-color-wrap buy-info-list-color']//li[3]//span
+[INFO ] 2017-01-12 17:40:27,092 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
+[INFO ] 2017-01-12 17:40:27,119 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
+[INFO ] 2017-01-12 17:40:27,120 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: 备选的颜色：蟒袍绿
+[INFO ] 2017-01-12 17:40:27,121 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
+[INFO ] 2017-01-12 17:40:27,134 Webq.Page.PageProduct - Webq.Page.PageProduct: 选择的颜色是： 蟒袍绿
+[INFO ] 2017-01-12 17:40:27,293 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
+[INFO ] 2017-01-12 17:40:27,293 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: 元素名称是：蟒袍绿  获取的元素路径是：.//*[@id='buyMod']//div[@id='selecTedColor']
+[INFO ] 2017-01-12 17:40:27,294 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
+[INFO ] 2017-01-12 17:40:27,309 Webq.Page.PageProduct - Webq.Page.PageProduct: 当前的颜色是：蟒袍绿
+[INFO ] 2017-01-12 17:40:27,334 Webq.Page.PageProduct - Webq.Page.PageProduct: 菜单未打开
+[INFO ] 2017-01-12 17:40:27,334 Webq.Page.PageProduct - Webq.Page.PageProduct: 当前的颜色与选择的蟒袍绿色一致！
+[INFO ] 2017-01-12 17:40:27,355 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
+[INFO ] 2017-01-12 17:40:27,356 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: 元素名称是：加入购物车  获取的元素路径是：.//*[@id='add_cart']
+[INFO ] 2017-01-12 17:40:27,356 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
+[INFO ] 2017-01-12 17:40:27,394 Webq.Page.PageProduct - Webq.Page.PageProduct: 已经点击加入购物车按钮
+[INFO ] 2017-01-12 17:40:27,395 Webq.utils.TestNGListener - Webq.utils.TestNGListener: Test Success
+[INFO ] 2017-01-12 17:40:27,397 Webq.utils.TestNGListener - Webq.utils.TestNGListener: Test Finsh
+[INFO ] 2017-01-12 17:40:28,301 Webq.Page.PageAd - Webq.Page.PageAd: #############################################
+[INFO ] 2017-01-12 17:40:28,302 Webq.Page.PageAd - Webq.Page.PageAd: http://webq.700paper.cn/meishuguan
+[INFO ] 2017-01-12 17:40:28,302 Webq.Page.PageAd - Webq.Page.PageAd: #############################################
+[INFO ] 2017-01-12 17:40:28,333 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: ########
+[INFO ] 2017-01-12 17:40:28,333 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: 元素名称是：立即购买  获取的元素路径是：html/body/div[2]/div/div/div[2]/a
+[INFO ] 2017-01-12 17:40:28,333 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: ########
+[ERROR] 2017-01-12 17:40:28,426 Webq.Page.PageProduct - Webq.Page.PageProduct: 获取面包屑失败
+[INFO ] 2017-01-12 17:40:28,914 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
+[INFO ] 2017-01-12 17:40:28,914 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: 元素名称是：popwin 获取的元素路径是：.//div[@class='popwin']
+[INFO ] 2017-01-12 17:40:28,915 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
+[INFO ] 2017-01-12 17:40:28,933 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
+[INFO ] 2017-01-12 17:40:28,933 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: 元素名称是：  获取的元素路径是：.//div[@class='popwin']//div[@class ='popwin-content']
+[INFO ] 2017-01-12 17:40:28,934 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
+[INFO ] 2017-01-12 17:40:28,953 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
+[INFO ] 2017-01-12 17:40:28,954 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: 元素名称是：  获取的元素路径是：.//div[@class='popwin']//div[@class = 'popwin-btn']
+[INFO ] 2017-01-12 17:40:28,954 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
+[INFO ] 2017-01-12 17:40:28,973 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
+[INFO ] 2017-01-12 17:40:28,973 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: 元素名称是：popwin 获取的元素路径是：.//div[@class='popwin']
+[INFO ] 2017-01-12 17:40:28,974 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
+[INFO ] 2017-01-12 17:40:28,992 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
+[INFO ] 2017-01-12 17:40:28,993 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: 元素名称是：  获取的元素路径是：.//div[@class='popwin']//div[@class ='popwin-content']
+[INFO ] 2017-01-12 17:40:28,993 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
+[INFO ] 2017-01-12 17:40:30,017 Webq.Page.PageProduct - Webq.Page.PageProduct: 
+[INFO ] 2017-01-12 17:40:30,037 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
+[INFO ] 2017-01-12 17:40:30,038 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: 元素名称是：popwin 获取的元素路径是：.//div[@class='popwin']
+[INFO ] 2017-01-12 17:40:30,038 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
+[INFO ] 2017-01-12 17:40:30,058 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
+[INFO ] 2017-01-12 17:40:30,059 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: 元素名称是：  获取的元素路径是：.//div[@class='popwin']//div[@class ='popwin-content']
+[INFO ] 2017-01-12 17:40:30,059 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
+[INFO ] 2017-01-12 17:40:30,094 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
+[INFO ] 2017-01-12 17:40:30,094 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: 元素名称是：  获取的元素路径是：.//div[@class='popwin']//div[@class = 'popwin-btn']
+[INFO ] 2017-01-12 17:40:30,095 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
+[INFO ] 2017-01-12 17:40:30,116 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
+[INFO ] 2017-01-12 17:40:30,116 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: 元素名称是：  获取的元素路径是：.//div[@class='popwin']//div[@class = 'popwin-btn']
+[INFO ] 2017-01-12 17:40:30,117 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
+[INFO ] 2017-01-12 17:40:30,132 Webq.Page.PageProduct - Webq.Page.PageProduct: 库存不足，正在重新选择商品！
+[INFO ] 2017-01-12 17:40:30,161 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
+[INFO ] 2017-01-12 17:40:30,161 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: 元素名称是：div  获取的元素路径是：.//*[@id='buyMod']
+[INFO ] 2017-01-12 17:40:30,162 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
+[INFO ] 2017-01-12 17:40:30,238 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
+[INFO ] 2017-01-12 17:40:30,239 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: 元素名称是：石砚灰  获取的元素路径是：.//*[@id='buyMod']//div[@id='selecTedColor']
+[INFO ] 2017-01-12 17:40:30,239 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
+[INFO ] 2017-01-12 17:40:30,272 Webq.Page.PageProduct - Webq.Page.PageProduct: 菜单未打开
+[INFO ] 2017-01-12 17:40:30,300 Webq.Page.PageProduct - Webq.Page.PageProduct: 菜单未打开
+[INFO ] 2017-01-12 17:40:30,301 Webq.Page.PageProduct - Webq.Page.PageProduct: 点击打开菜单
+[INFO ] 2017-01-12 17:40:30,363 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
+[INFO ] 2017-01-12 17:40:30,363 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: 元素名称是：石砚灰  获取的元素路径是：.//*[@id='buyMod']//div[@id='selecTedColor']
+[INFO ] 2017-01-12 17:40:30,364 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
+[INFO ] 2017-01-12 17:40:30,390 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
+[INFO ] 2017-01-12 17:40:30,390 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: numberColours:3
+[INFO ] 2017-01-12 17:40:30,391 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
+[INFO ] 2017-01-12 17:40:30,391 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
+[INFO ] 2017-01-12 17:40:30,391 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: .//*[@id='buyMod']//ul[@class='buy-info-list  buy-info-color-wrap buy-info-list-color']//li[1]//span
+[INFO ] 2017-01-12 17:40:30,392 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
+[INFO ] 2017-01-12 17:40:30,425 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
+[INFO ] 2017-01-12 17:40:30,425 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: 备选的颜色：石砚灰
+[INFO ] 2017-01-12 17:40:30,426 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
+[INFO ] 2017-01-12 17:40:30,426 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
+[INFO ] 2017-01-12 17:40:30,426 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: .//*[@id='buyMod']//ul[@class='buy-info-list  buy-info-color-wrap buy-info-list-color']//li[2]//span
+[INFO ] 2017-01-12 17:40:30,426 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
+[INFO ] 2017-01-12 17:40:30,444 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
+[INFO ] 2017-01-12 17:40:30,445 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: 备选的颜色：杏仁白
+[INFO ] 2017-01-12 17:40:30,445 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
+[INFO ] 2017-01-12 17:40:30,446 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
+[INFO ] 2017-01-12 17:40:30,446 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: .//*[@id='buyMod']//ul[@class='buy-info-list  buy-info-color-wrap buy-info-list-color']//li[3]//span
+[INFO ] 2017-01-12 17:40:30,447 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
+[INFO ] 2017-01-12 17:40:30,468 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
+[INFO ] 2017-01-12 17:40:30,468 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: 备选的颜色：蟒袍绿
+[INFO ] 2017-01-12 17:40:30,469 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
+[ERROR] 2017-01-12 17:40:40,546 Webq.Page.PageProduct - Webq.Page.PageProduct: 商品库存状态无异常。
+[INFO ] 2017-01-12 17:40:40,585 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
+[INFO ] 2017-01-12 17:40:40,586 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: 元素名称是：加入购物车  获取的元素路径是：.//*[@id='add_cart']
+[INFO ] 2017-01-12 17:40:40,586 Webq.Element.ElementPageProduct - Webq.Element.ElementPageProduct: ########
+[INFO ] 2017-01-12 17:40:40,644 Webq.Page.PageProduct - Webq.Page.PageProduct: 已经点击加入购物车按钮
+[INFO ] 2017-01-12 17:40:42,691 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: ########
+[INFO ] 2017-01-12 17:40:42,691 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: 元素名称是：商品已经成功加入购物车！  获取的元素路径是：html/body/div[2]/div[1]/div/p[2]
+[INFO ] 2017-01-12 17:40:42,691 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: ########
+[INFO ] 2017-01-12 17:40:42,727 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: ########
+[INFO ] 2017-01-12 17:40:42,727 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: 元素名称是：商品已经成功加入购物车！  获取的元素路径是：html/body/div[2]/div[1]/div/p[2]
+[INFO ] 2017-01-12 17:40:42,727 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: ########
+[INFO ] 2017-01-12 17:40:42,790 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: ########
+[INFO ] 2017-01-12 17:40:42,790 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: 元素名称是：去购物车结算  获取的元素路径是：.//*[@id='toCheckOut']
+[INFO ] 2017-01-12 17:40:42,790 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: ########
+[INFO ] 2017-01-12 17:40:43,295 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: ########
+[INFO ] 2017-01-12 17:40:43,295 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: 元素名称是：cartList  获取的元素路径是：.//div[@id='cartList']
+[INFO ] 2017-01-12 17:40:43,296 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: ########
+[INFO ] 2017-01-12 17:40:43,318 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: ########
+[INFO ] 2017-01-12 17:40:43,318 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: 元素名称是：gridtable  获取的元素路径是：.//div[@id='cartList']//table[@class = 'gridtable']
+[INFO ] 2017-01-12 17:40:43,318 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: ########
+[INFO ] 2017-01-12 17:40:43,419 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: ########
+[INFO ] 2017-01-12 17:40:43,419 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: 元素名称是：美术馆 蟒袍绿 XL
 999.99
 999.99  获取的元素路径是：.//div[@id='cartList']//table[@class = 'gridtable']//tr[2]
-[INFO ] 2017-01-09 12:08:07,917 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: ########
-[INFO ] 2017-01-09 12:08:07,933 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: ########
-[INFO ] 2017-01-09 12:08:07,934 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: 元素名称是：cart-add  获取的元素路径是：.//div[@id='cartList']//table[@class = 'gridtable']//tr[2]//a[@class = 'cart-add']
-[INFO ] 2017-01-09 12:08:07,934 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: ########
-[INFO ] 2017-01-09 12:08:07,953 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: ########
-[INFO ] 2017-01-09 12:08:07,953 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: 元素名称是：cart-sub  获取的元素路径是：.//div[@id='cartList']//table[@class = 'gridtable']//tr[2]//a[@class = 'cart-sub']
-[INFO ] 2017-01-09 12:08:07,953 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: ########
-[INFO ] 2017-01-09 12:08:07,976 Webq.Page.PageCart - Webq.Page.PageCart: 增加商品的数量为1
-[INFO ] 2017-01-09 12:08:09,073 Webq.Page.PageCart - Webq.Page.PageCart: 减少商品的数量为1
-[INFO ] 2017-01-09 12:08:11,215 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: ########
-[INFO ] 2017-01-09 12:08:11,216 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: 元素名称是：结算  获取的元素路径是：.//*[@id='linkToPayPage']
-[INFO ] 2017-01-09 12:08:11,216 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: ########
-[INFO ] 2017-01-09 12:08:16,308 Webq.Element.ElementPageOrder - Webq.Element.ElementPageOrder: ########
-[INFO ] 2017-01-09 12:08:16,311 Webq.Element.ElementPageOrder - Webq.Element.ElementPageOrder: 元素名称是：提交订单  获取的元素路径是：.//*[@id='submitsection']
-[INFO ] 2017-01-09 12:08:16,311 Webq.Element.ElementPageOrder - Webq.Element.ElementPageOrder: ########
-[INFO ] 2017-01-09 12:08:16,912 Webq.Element.ElementPageOrderPay - Webq.Element.ElementPageOrderPay: ########
-[INFO ] 2017-01-09 12:08:16,913 Webq.Element.ElementPageOrderPay - Webq.Element.ElementPageOrderPay: 元素名称是：  .//*[@id='ContentPlaceHolder1_btnPay']
-[INFO ] 2017-01-09 12:08:16,913 Webq.Element.ElementPageOrderPay - Webq.Element.ElementPageOrderPay: ########
-[INFO ] 2017-01-09 12:08:17,627 Webq.Element.ElementPageOrderPay - Webq.Element.ElementPageOrderPay: ########
-[INFO ] 2017-01-09 12:08:17,627 Webq.Element.ElementPageOrderPay - Webq.Element.ElementPageOrderPay: 元素名称是：  .//*[@id='ContentPlaceHolder1_btnPay']
-[INFO ] 2017-01-09 12:08:17,627 Webq.Element.ElementPageOrderPay - Webq.Element.ElementPageOrderPay: ########
-[INFO ] 2017-01-09 12:08:21,012 Webq.Page.PageOrderLists - Webq.Page.PageOrderLists: 进入订单列表页
-[ERROR] 2017-01-09 12:08:25,270 Webq.Page.PageOrderLists - Webq.Page.PageOrderLists: 进入订单列表失败，开始重试！
-[INFO ] 2017-01-09 12:08:30,869 Webq.Page.PageOrderLists - Webq.Page.PageOrderLists: 成功进入订单列表页
-[INFO ] 2017-01-09 12:08:30,909 Webq.Element.ElementPageOrderLists - Webq.Element.ElementPageOrderLists: ########
-[INFO ] 2017-01-09 12:08:30,910 Webq.Element.ElementPageOrderLists - Webq.Element.ElementPageOrderLists: 元素名称是：查看详情  .//*[@id='orderList']/div[1]/div[4]/div[3]/a
-[INFO ] 2017-01-09 12:08:30,910 Webq.Element.ElementPageOrderLists - Webq.Element.ElementPageOrderLists: ########
-[INFO ] 2017-01-09 12:08:37,387 Webq.Element.ElementPageOrderDetails - Webq.Element.ElementPageOrderDetails: ########
-[INFO ] 2017-01-09 12:08:37,388 Webq.Element.ElementPageOrderDetails - Webq.Element.ElementPageOrderDetails: 元素名称是：现货订单:QPC7007580815160  .//*[@id='orderNumber']
-[INFO ] 2017-01-09 12:08:37,388 Webq.Element.ElementPageOrderDetails - Webq.Element.ElementPageOrderDetails: ########
-[INFO ] 2017-01-09 12:08:37,406 Webq.Page.PageAd - Webq.Page.PageAd: 订单号：QPC7007580815160
-[INFO ] 2017-01-09 12:08:37,407 Webq.Page.PageAd - Webq.Page.PageAd: 开始取消订单。
-[INFO ] 2017-01-09 12:08:37,441 Webq.Element.ElementPageOrderDetails - Webq.Element.ElementPageOrderDetails: ########
-[INFO ] 2017-01-09 12:08:37,441 Webq.Element.ElementPageOrderDetails - Webq.Element.ElementPageOrderDetails: 元素名称是：现货订单:QPC7007580815160  .//*[@id='orderNumber']
-[INFO ] 2017-01-09 12:08:37,442 Webq.Element.ElementPageOrderDetails - Webq.Element.ElementPageOrderDetails: ########
-[INFO ] 2017-01-09 12:08:37,463 Webq.Page.PageAd - Webq.Page.PageAd: 订单号：QPC7007580815160
-[INFO ] 2017-01-09 12:08:37,497 Webq.Element.ElementPageOrderDetails - Webq.Element.ElementPageOrderDetails: ########
-[INFO ] 2017-01-09 12:08:37,498 Webq.Element.ElementPageOrderDetails - Webq.Element.ElementPageOrderDetails: 元素名称是：取消订单  .//*[@id='btnCancelOrder']
-[INFO ] 2017-01-09 12:08:37,498 Webq.Element.ElementPageOrderDetails - Webq.Element.ElementPageOrderDetails: ########
-[INFO ] 2017-01-09 12:08:43,605 Webq.Element.ElementPageOrderDetails - Webq.Element.ElementPageOrderDetails: ########
-[INFO ] 2017-01-09 12:08:43,606 Webq.Element.ElementPageOrderDetails - Webq.Element.ElementPageOrderDetails: 元素名称是：  .//*[@id='btnDialogBySHFConfirm']
-[INFO ] 2017-01-09 12:08:43,606 Webq.Element.ElementPageOrderDetails - Webq.Element.ElementPageOrderDetails: ########
-[INFO ] 2017-01-09 12:08:46,686 Webq.Element.ElementPageOrderDetails - Webq.Element.ElementPageOrderDetails: ########
-[INFO ] 2017-01-09 12:08:46,688 Webq.Element.ElementPageOrderDetails - Webq.Element.ElementPageOrderDetails: 元素名称是：已取消  .//*[@id='orderStatus']
-[INFO ] 2017-01-09 12:08:46,689 Webq.Element.ElementPageOrderDetails - Webq.Element.ElementPageOrderDetails: ########
-[INFO ] 2017-01-09 12:08:46,705 Webq.Page.PageAd - Webq.Page.PageAd: 订单取消成功！
-[INFO ] 2017-01-09 12:08:46,706 Webq.utils.TestNGListener - Webq.utils.TestNGListener: Test Success
-[INFO ] 2017-01-09 12:08:46,708 Webq.utils.TestNGListener - Webq.utils.TestNGListener: Test Finsh
-[INFO ] 2017-01-09 12:08:46,709 Webq.utils.TestNGListener - Webq.utils.TestNGListener: Test Success
-[INFO ] 2017-01-09 12:08:46,710 Webq.utils.TestNGListener - Webq.utils.TestNGListener: Test Finish
-[INFO ] 2017-01-09 12:08:46,710 Webq.utils.TestNGListener - Webq.utils.TestNGListener: PassedTests = TestWebq4
-[INFO ] 2017-01-09 12:08:46,711 Webq.utils.TestNGListener - Webq.utils.TestNGListener: PassedTests = TestWebq2
-[INFO ] 2017-01-09 12:08:46,711 Webq.utils.TestNGListener - Webq.utils.TestNGListener: PassedTests = TestWebq3
-[INFO ] 2017-01-09 12:08:46,711 Webq.utils.TestNGListener - Webq.utils.TestNGListener: PassedTests = TestWebq1
-[INFO ] 2017-01-09 12:08:46,993 Webq.Case.CaseWebq - Webq.Case.CaseWebq: Stop WebDriver
+[INFO ] 2017-01-12 17:40:43,420 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: ########
+[INFO ] 2017-01-12 17:40:43,438 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: ########
+[INFO ] 2017-01-12 17:40:43,438 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: 元素名称是：cart-add  获取的元素路径是：.//div[@id='cartList']//table[@class = 'gridtable']//tr[2]//a[@class = 'cart-add']
+[INFO ] 2017-01-12 17:40:43,439 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: ########
+[INFO ] 2017-01-12 17:40:43,455 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: ########
+[INFO ] 2017-01-12 17:40:43,456 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: 元素名称是：cart-sub  获取的元素路径是：.//div[@id='cartList']//table[@class = 'gridtable']//tr[2]//a[@class = 'cart-sub']
+[INFO ] 2017-01-12 17:40:43,456 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: ########
+[INFO ] 2017-01-12 17:40:43,492 Webq.Page.PageCart - Webq.Page.PageCart: 增加商品的数量为1
+[INFO ] 2017-01-12 17:40:44,594 Webq.Page.PageCart - Webq.Page.PageCart: 减少商品的数量为1
+[INFO ] 2017-01-12 17:40:45,694 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: ########
+[INFO ] 2017-01-12 17:40:45,695 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: 元素名称是：结算  获取的元素路径是：.//*[@id='linkToPayPage']
+[INFO ] 2017-01-12 17:40:45,696 Webq.Element.ElementPageCart - Webq.Element.ElementPageCart: ########
+[INFO ] 2017-01-12 17:40:52,904 Webq.Element.ElementPageOrder - Webq.Element.ElementPageOrder: ########
+[INFO ] 2017-01-12 17:40:52,905 Webq.Element.ElementPageOrder - Webq.Element.ElementPageOrder: 元素名称是：提交订单  获取的元素路径是：.//*[@id='submitsection']
+[INFO ] 2017-01-12 17:40:52,905 Webq.Element.ElementPageOrder - Webq.Element.ElementPageOrder: ########
+[INFO ] 2017-01-12 17:40:55,333 Webq.Element.ElementPageOrderPay - Webq.Element.ElementPageOrderPay: ########
+[INFO ] 2017-01-12 17:40:55,333 Webq.Element.ElementPageOrderPay - Webq.Element.ElementPageOrderPay: 元素名称是：  .//*[@id='ContentPlaceHolder1_btnPay']
+[INFO ] 2017-01-12 17:40:55,334 Webq.Element.ElementPageOrderPay - Webq.Element.ElementPageOrderPay: ########
+[INFO ] 2017-01-12 17:40:55,830 Webq.Element.ElementPageOrderPay - Webq.Element.ElementPageOrderPay: ########
+[INFO ] 2017-01-12 17:40:55,831 Webq.Element.ElementPageOrderPay - Webq.Element.ElementPageOrderPay: 元素名称是：  .//*[@id='ContentPlaceHolder1_btnPay']
+[INFO ] 2017-01-12 17:40:55,832 Webq.Element.ElementPageOrderPay - Webq.Element.ElementPageOrderPay: ########
+[INFO ] 2017-01-12 17:40:59,367 Webq.Page.PageOrderLists - Webq.Page.PageOrderLists: 进入订单列表页
+[ERROR] 2017-01-12 17:41:01,389 Webq.Page.PageOrderLists - Webq.Page.PageOrderLists: 进入订单列表失败，开始重试！
+[INFO ] 2017-01-12 17:41:06,589 Webq.Page.PageOrderLists - Webq.Page.PageOrderLists: 成功进入订单列表页
+[INFO ] 2017-01-12 17:41:12,001 Webq.Element.ElementPageOrderLists - Webq.Element.ElementPageOrderLists: ########
+[INFO ] 2017-01-12 17:41:12,002 Webq.Element.ElementPageOrderLists - Webq.Element.ElementPageOrderLists: 元素名称是：查看详情  .//*[@id='orderList']/div[1]/div[4]/div[3]/a
+[INFO ] 2017-01-12 17:41:12,002 Webq.Element.ElementPageOrderLists - Webq.Element.ElementPageOrderLists: ########
+[INFO ] 2017-01-12 17:41:18,416 Webq.Element.ElementPageOrderDetails - Webq.Element.ElementPageOrderDetails: ########
+[INFO ] 2017-01-12 17:41:18,418 Webq.Element.ElementPageOrderDetails - Webq.Element.ElementPageOrderDetails: 元素名称是：现货订单:QPC7006770812247  .//*[@id='orderNumber']
+[INFO ] 2017-01-12 17:41:18,418 Webq.Element.ElementPageOrderDetails - Webq.Element.ElementPageOrderDetails: ########
+[INFO ] 2017-01-12 17:41:18,428 Webq.Page.PageAd - Webq.Page.PageAd: 订单号：QPC7006770812247
+[INFO ] 2017-01-12 17:41:18,429 Webq.Page.PageAd - Webq.Page.PageAd: 开始取消订单。
+[INFO ] 2017-01-12 17:41:18,452 Webq.Element.ElementPageOrderDetails - Webq.Element.ElementPageOrderDetails: ########
+[INFO ] 2017-01-12 17:41:18,452 Webq.Element.ElementPageOrderDetails - Webq.Element.ElementPageOrderDetails: 元素名称是：现货订单:QPC7006770812247  .//*[@id='orderNumber']
+[INFO ] 2017-01-12 17:41:18,452 Webq.Element.ElementPageOrderDetails - Webq.Element.ElementPageOrderDetails: ########
+[INFO ] 2017-01-12 17:41:18,462 Webq.Page.PageAd - Webq.Page.PageAd: 订单号：QPC7006770812247
+[INFO ] 2017-01-12 17:41:18,484 Webq.Element.ElementPageOrderDetails - Webq.Element.ElementPageOrderDetails: ########
+[INFO ] 2017-01-12 17:41:18,484 Webq.Element.ElementPageOrderDetails - Webq.Element.ElementPageOrderDetails: 元素名称是：取消订单  .//*[@id='btnCancelOrder']
+[INFO ] 2017-01-12 17:41:18,485 Webq.Element.ElementPageOrderDetails - Webq.Element.ElementPageOrderDetails: ########
+[INFO ] 2017-01-12 17:41:24,584 Webq.Element.ElementPageOrderDetails - Webq.Element.ElementPageOrderDetails: ########
+[INFO ] 2017-01-12 17:41:24,585 Webq.Element.ElementPageOrderDetails - Webq.Element.ElementPageOrderDetails: 元素名称是：  .//*[@id='btnDialogBySHFConfirm']
+[INFO ] 2017-01-12 17:41:24,585 Webq.Element.ElementPageOrderDetails - Webq.Element.ElementPageOrderDetails: ########
+[INFO ] 2017-01-12 17:41:27,711 Webq.Element.ElementPageOrderDetails - Webq.Element.ElementPageOrderDetails: ########
+[INFO ] 2017-01-12 17:41:27,712 Webq.Element.ElementPageOrderDetails - Webq.Element.ElementPageOrderDetails: 元素名称是：已取消  .//*[@id='orderStatus']
+[INFO ] 2017-01-12 17:41:27,712 Webq.Element.ElementPageOrderDetails - Webq.Element.ElementPageOrderDetails: ########
+[INFO ] 2017-01-12 17:41:27,723 Webq.Page.PageAd - Webq.Page.PageAd: 订单取消成功！
+[INFO ] 2017-01-12 17:41:27,725 Webq.utils.TestNGListener - Webq.utils.TestNGListener: Test Success
+[INFO ] 2017-01-12 17:41:27,737 Webq.utils.TestNGListener - Webq.utils.TestNGListener: Test Finsh
+[INFO ] 2017-01-12 17:41:27,740 Webq.utils.TestNGListener - Webq.utils.TestNGListener: Test Success
+[INFO ] 2017-01-12 17:41:27,744 Webq.utils.TestNGListener - Webq.utils.TestNGListener: Test Finish
+[INFO ] 2017-01-12 17:41:27,745 Webq.utils.TestNGListener - Webq.utils.TestNGListener: PassedTests = TestWebq3
+[INFO ] 2017-01-12 17:41:27,745 Webq.utils.TestNGListener - Webq.utils.TestNGListener: PassedTests = TestWebq1
+[INFO ] 2017-01-12 17:41:27,746 Webq.utils.TestNGListener - Webq.utils.TestNGListener: PassedTests = TestWebq2
+[INFO ] 2017-01-12 17:41:27,746 Webq.utils.TestNGListener - Webq.utils.TestNGListener: PassedTests = TestWebq4
+[INFO ] 2017-01-12 17:41:27,750 Webq.Case.CaseWebq - Webq.Case.CaseWebq: Stop WebDriver

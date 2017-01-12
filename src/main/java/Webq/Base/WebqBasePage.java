@@ -61,7 +61,6 @@ public class WebqBasePage extends ResolveLocator{
 		
 	}
 	
-	
 
 	
 	/**
@@ -199,7 +198,7 @@ public class WebqBasePage extends ResolveLocator{
 	 * 结果：定位元素并“点击”
 	 * @throws Exception
 	 */
-	protected void click(WebqLocator locator) throws Exception {
+	public void click(WebqLocator locator) throws Exception {
 		WebElement e = findElement(driver, locator);
 		log.info("click button");
 //		e.click();

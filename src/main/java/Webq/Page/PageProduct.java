@@ -9,9 +9,6 @@ import org.openqa.selenium.WebElement;
 import Webq.Element.ElementPageProduct;
 import Webq.MatterDo.DoCrumb;
 
-
-
-
 public class PageProduct {
 
 		static WebDriver cartDriver; 

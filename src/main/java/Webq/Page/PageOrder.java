@@ -1,5 +1,7 @@
 package Webq.Page;
 
+import org.apache.maven.doxia.logging.Log;
+import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -26,10 +28,16 @@ public class PageOrder {
 		OrderDriver = driver;
 		jse= (JavascriptExecutor)driver; 
 		
+		
+		/*收货地址*/
+		checkAddress();
+		/*商品清单，检查商品图片信息*/
+		checkLinkFromPic();	
 		/*优惠信息，检查是否支持优惠信息选项*/
 		checkYouHui();
-		/*商品清单，检查商品图片信息*/
-		checkLinkFromPic();
+		/*价格信息，检查价格计算是否正确*/
+		checkPrice();
+		
 //		点击结算页“提交”按钮；
 		subOrder();
 //		获取支付页面文案；
@@ -38,7 +46,11 @@ public class PageOrder {
 //		PageOrderPay.checkOrder();		
 	}
 
-
+	/**
+	 * WAP方法
+	 * @param driver
+	 * @throws InterruptedException
+	 */
 	public static void PlOrderWap(WebDriver driver) throws InterruptedException {
 		// TODO Auto-generated method stub
 		
@@ -49,7 +61,39 @@ public class PageOrder {
 		subOrderWap();	
 	}
 
+	/**
+	 * 检查收货地址是否显示
+	 */
+	private static void checkAddress() {
+		// TODO Auto-generated method stub
+		System.out.println("检查收货地址是否加载，并展示出来");
+		WebElement Address = ElementPageOrder.getAddress(OrderDriver);
+		if(Address.isDisplayed()){
+			WebElement AddressDef = ElementPageOrder.getAddressDef(OrderDriver); 
+			Assert.assertEquals(AddressDef.getText(), "默认", "错误！默认地址出错！");
+		}else{
+			System.err.println("错误！收货地址没有加载成功！");
+		}
+	}
 	
+	/**
+	 * 检查价格信息是否计算正确
+	 */
+	private static void checkPrice() {
+		// TODO Auto-generated method stub
+		System.out.println("检查价格信息是否有效");
+		double showTotalExpense = Double.parseDouble(ElementPageOrder.getTotalExpense(OrderDriver).getText());
+		double showShipping = Double.parseDouble(ElementPageOrder.getShipping(OrderDriver).getText());
+		double showCouponCashBack = Double.parseDouble(ElementPageOrder.getCouponCashBack(OrderDriver).getText());
+		double showTotalAmountPayable = Double.parseDouble(ElementPageOrder.getAmountPayable(OrderDriver).getText());
+		double Price = showTotalExpense + showShipping - showCouponCashBack;
+		Assert.assertEquals(showTotalAmountPayable,Price,"错误！订单价格计算错误。");
+	}
+	
+	
+	/**
+	 * 检查优惠信息
+	 */
 	private static void checkYouHui() {
 		// TODO Auto-generated method stub
 		System.out.println("检查优惠信息是否生效");
@@ -58,7 +102,9 @@ public class PageOrder {
 		Assert.assertEquals(Checkor, "优惠信息");
 	}
 
-
+	/**
+	 * 检查商品img的链接
+	 */
 	private static void checkLinkFromPic() {
 		// TODO Auto-generated method stub
 		System.out.println("检查商品清单的链接");

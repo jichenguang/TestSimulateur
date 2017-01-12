@@ -16,6 +16,7 @@ import Webq.utils.WebqxmlUtils;
 
 
 /**
+ * 查询类 根据locator属性从xml文件解析元素路径出来，最终返回一个locator元素给 页面类 
  * 功能：从xml文件解析path string出来
  * @author 700sfriend
  *
@@ -171,7 +172,7 @@ public class ResolveLocator  {
 	 * @return
 	 * @throws IOException
 	 */
-	public WebqLocator getLocator(String locatorName) throws IOException {
+	public static WebqLocator getLocator(String locatorName) throws IOException {
 
 		WebqLocator locator;
 		// for (int i = 0; i < locatorMap.length; i++) {

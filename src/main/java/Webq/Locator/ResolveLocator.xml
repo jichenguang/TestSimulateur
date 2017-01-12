@@ -30,6 +30,14 @@
 		<locator type="ByXpath" timeOut="3" value=".//*[@id='per']/div/a">PerBtn</locator>
 		<locator type="ByXpath" timeOut="3" value="html/body/section[3]/a[3]">PerBtnWap</locator>
 		
+		
+		<!-- 团购 -->
+		<!-- 团购福袋 -->
+		<locator type="ByXpath" timeOut="3" value=".//*[@class='group-products-main']/div[1]">团购福袋</locator>
+		<!-- 团购单品 -->
+		<locator type="ByXpath" timeOut="3" value=".//*[@class='group-products-main']/div[2]">团购单品</locator>
+		
+		
 		<!-- WAP的MenuBar -->
 		<!-- 父节点路径 -->
 		<locator type="ByXpath" timeOut="3" value=".//section[@class = 'menu-bar']">PathDivMenuBar</locator>
