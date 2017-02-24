@@ -24,10 +24,10 @@ public class OpExWebq  {
 
 		/*商品AD页面*/
 		PageAd.PlCartAd(driver);	
-		/*商品详情页的操作*/
-		PageProduct.PlCartProduct(driver);
-	
+		/*商品详情页的操作:判断库存--重选颜色--进入购物车*/
+		PageProduct.PlCartProduct(driver);	
 	}
+	
 	
 	/*
 	 * Wap：操作
@@ -37,9 +37,48 @@ public class OpExWebq  {
 
 		/*商品AD页面*/
 		PageAd.PlCartAdWap(driver);	
-		/*商品详情页的操作*/
+		/*商品详情页的操作:判断库存--重选颜色--进入购物车*/
 		PageProduct.PlCartProductWap(driver);
-	
 	}
 
+	/**
+	 * 验证商品的状态为“预定”
+	 * @throws InterruptedException
+	 */
+	public void actionExProInfoState() throws InterruptedException {
+		// TODO Auto-generated method stub
+		PageProduct.PlCheckSubScribeState(driver);
+	}
+
+	public void actionExProInfoSize() throws InterruptedException {
+		// TODO Auto-generated method stub	
+	}
+
+	public void actionExProInfoStock() throws InterruptedException {
+		// TODO Auto-generated method stub
+	}
+
+	/**
+	 * 验证商品缺省显示为有货的SKU颜色，且按钮状态正确
+	 */
+	public void actionExProInfoAutoChangeSKU() {
+		// TODO Auto-generated method stub
+		PageProduct.PlCheckAutoChangeSKU(driver,"灰色","加入购物车");
+	}
+	
+	/**
+	 * 验证商品+和-号的数量
+	 */
+	public void actionExProInfoChangeNum() {
+		// TODO Auto-generated method stub
+		PageProduct.PlCheckChangeNum(driver);
+	}
+	
+	/**
+	 * 检查商品的最大数量和最小数量
+	 */
+	public void actionExProInfoTopNum() {
+		// TODO Auto-generated method stub
+		PageProduct.PlCheckTopNum(driver);
+	}
 }

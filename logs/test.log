@@ -1,100 +1,5 @@
-%$ INFO  Webq.utils.Log 25 info - Webq.Case.CaseWebq: Start WebDriver
+%$ INFO  Webq.utils.Log 25 info - Webq.Case.CaseWebqVir: Start WebDriver
 %$ INFO  Webq.utils.Log 25 info - Webq.utils.TestNGListener: Test Start
-%$ INFO  Webq.utils.Log 25 info - Webq.utils.TestNGListener: Test Finsh
-%$ DEBUG Webq.utils.Log 33 debug - Webq.Page.PageLogin: Webq.Page.PageLogin
-%$ INFO  Webq.utils.Log 25 info - Webq.Page.PageLogin: /Users/700sfriend/Desktop/work/MyDEV/workspace-sts-3.7.1.RELEASE/webq.wap
-%$ INFO  Webq.utils.Log 25 info - Webq.Page.PageLogin: /Users/700sfriend/Desktop/work/MyDEV/workspace-sts-3.7.1.RELEASE/webq.wap/src/main/java/Webq/Page/PageLogin.xml
-%$ INFO  Webq.utils.Log 25 info - Webq.utils.xmlUtils: Webq.Page.PageLogin
-%$ INFO  Webq.utils.Log 25 info - Webq.utils.xmlUtils: page Info is:Webq.Page.PageLogin
-%$ INFO  Webq.utils.Log 25 info - Webq.utils.xmlUtils: get locator type ByXpath
-%$ INFO  Webq.utils.Log 25 info - Webq.utils.xmlUtils: get locator timeOut 3
-%$ INFO  Webq.utils.Log 25 info - Webq.utils.xmlUtils: get locator value .//*[@id='phone']
-%$ INFO  Webq.utils.Log 25 info - Webq.utils.xmlUtils: locator Name is loginEmailInputBox
-%$ INFO  Webq.utils.Log 25 info - Webq.utils.xmlUtils: get locator type ByXpath
-%$ INFO  Webq.utils.Log 25 info - Webq.utils.xmlUtils: get locator timeOut 3
-%$ INFO  Webq.utils.Log 25 info - Webq.utils.xmlUtils: get locator value .//*[@id='password']
-%$ INFO  Webq.utils.Log 25 info - Webq.utils.xmlUtils: locator Name is loginPasswordInputBox
-%$ INFO  Webq.utils.Log 25 info - Webq.utils.xmlUtils: get locator type ByXpath
-%$ INFO  Webq.utils.Log 25 info - Webq.utils.xmlUtils: get locator timeOut 3
-%$ INFO  Webq.utils.Log 25 info - Webq.utils.xmlUtils: get locator value .//*[@id='form1']/div[2]
-%$ INFO  Webq.utils.Log 25 info - Webq.utils.xmlUtils: locator Name is loginButton
-%$ INFO  Webq.utils.Log 25 info - Webq.utils.xmlUtils: get locator type ByXpath
-%$ INFO  Webq.utils.Log 25 info - Webq.utils.xmlUtils: get locator timeOut 3
-%$ INFO  Webq.utils.Log 25 info - Webq.utils.xmlUtils: get locator value .//*[@id='form1']/div[2]
-%$ INFO  Webq.utils.Log 25 info - Webq.utils.xmlUtils: locator Name is wgjTitl
-%$ INFO  Webq.utils.Log 25 info - Webq.utils.xmlUtils: get locator type ByXpath
-%$ INFO  Webq.utils.Log 25 info - Webq.utils.xmlUtils: get locator timeOut 3
-%$ INFO  Webq.utils.Log 25 info - Webq.utils.xmlUtils: get locator value .//div[@class = 'user_logined']
-%$ INFO  Webq.utils.Log 25 info - Webq.utils.xmlUtils: locator Name is profile
-%$ INFO  Webq.utils.Log 25 info - Webq.utils.xmlUtils: get locator type ByXpath
-%$ INFO  Webq.utils.Log 25 info - Webq.utils.xmlUtils: get locator timeOut 30
-%$ INFO  Webq.utils.Log 25 info - Webq.utils.xmlUtils: get locator value .//*[@id='header-user-wrap']/div/span[1]/a
-%$ INFO  Webq.utils.Log 25 info - Webq.utils.xmlUtils: locator Name is clickToLoginButton
-%$ INFO  Webq.utils.Log 25 info - Webq.utils.xmlUtils: get locator type ByXpath
-%$ INFO  Webq.utils.Log 25 info - Webq.utils.xmlUtils: get locator timeOut 30
-%$ INFO  Webq.utils.Log 25 info - Webq.utils.xmlUtils: get locator value html/body/div[1]/div/ul/li[1]/a
-%$ INFO  Webq.utils.Log 25 info - Webq.utils.xmlUtils: locator Name is MainPage
-%$ INFO  Webq.utils.Log 25 info - Webq.Page.PageLogin: executing request http://test.bbs.700bike.com/
-%$ INFO  Webq.utils.Log 25 info - Webq.Page.PageLogin: --------------------------------------
-%$ INFO  Webq.utils.Log 25 info - Webq.Page.PageLogin: HTTP/1.1 200 OK
-%$ INFO  Webq.utils.Log 25 info - Webq.Page.PageLogin: Response content length: -1
-%$ INFO  Webq.utils.Log 25 info - Webq.Page.PageLogin: ------------------------------------
-%$ ERROR Webq.utils.Log 41 error - Webq.Page.PageLogin: 检查环境配置的地址有没有变化
-%$ DEBUG Webq.utils.Log 33 debug - Webq.Page.PageLogin: ！元素名称是：clickToLoginButton
-%$ DEBUG Webq.utils.Log 33 debug - Webq.Page.PageLogin: ! 元素的路径是：.//*[@id='header-user-wrap']/div/span[1]/a
-%$ DEBUG Webq.utils.Log 33 debug - Webq.Page.PageLogin: find element By xpath
-%$ INFO  Webq.utils.Log 25 info - Webq.Page.PageLogin: click button
-%$ DEBUG Webq.utils.Log 33 debug - Webq.Page.PageLogin: ！元素名称是：loginEmailInputBox
-%$ DEBUG Webq.utils.Log 33 debug - Webq.Page.PageLogin: ! 元素的路径是：.//*[@id='phone']
-%$ DEBUG Webq.utils.Log 33 debug - Webq.Page.PageLogin: find element By xpath
-%$ INFO  Webq.utils.Log 25 info - Webq.Page.PageLogin: type value is:  13157741542
-%$ DEBUG Webq.utils.Log 33 debug - Webq.Page.PageLogin: ！元素名称是：loginPasswordInputBox
-%$ DEBUG Webq.utils.Log 33 debug - Webq.Page.PageLogin: ! 元素的路径是：.//*[@id='password']
-%$ DEBUG Webq.utils.Log 33 debug - Webq.Page.PageLogin: find element By xpath
-%$ INFO  Webq.utils.Log 25 info - Webq.Page.PageLogin: type value is:  ji123456
-%$ DEBUG Webq.utils.Log 33 debug - Webq.Page.PageLogin: ！元素名称是：loginButton
-%$ DEBUG Webq.utils.Log 33 debug - Webq.Page.PageLogin: ! 元素的路径是：.//*[@id='form1']/div[2]
-%$ DEBUG Webq.utils.Log 33 debug - Webq.Page.PageLogin: find element By xpath
-%$ INFO  Webq.utils.Log 25 info - Webq.Page.PageLogin: click button
-%$ DEBUG Webq.utils.Log 33 debug - Webq.Page.PageLogin: ！元素名称是：.//div[@class = 'user_logined']
-%$ DEBUG Webq.utils.Log 33 debug - Webq.Page.PageLogin: ! 元素的路径是：.//div[@class = 'user_logined']
-%$ DEBUG Webq.utils.Log 33 debug - Webq.Page.PageLogin: find element By xpath
-%$ DEBUG Webq.utils.Log 33 debug - Webq.Page.PageLogin: ！元素名称是：.//div[@class = 'user_logined']
-%$ DEBUG Webq.utils.Log 33 debug - Webq.Page.PageLogin: ! 元素的路径是：.//div[@class = 'user_logined']
-%$ DEBUG Webq.utils.Log 33 debug - Webq.Page.PageLogin: find element By xpath
-%$ DEBUG Webq.utils.Log 33 debug - Webq.Page.PageLogin: ！元素名称是：.//div[@class = 'user_logined']
-%$ DEBUG Webq.utils.Log 33 debug - Webq.Page.PageLogin: ! 元素的路径是：.//div[@class = 'user_logined']
-%$ DEBUG Webq.utils.Log 33 debug - Webq.Page.PageLogin: find element By xpath
-%$ DEBUG Webq.utils.Log 33 debug - Webq.Page.PageLogin: ！元素名称是：.//div[@class = 'user_logined']
-%$ DEBUG Webq.utils.Log 33 debug - Webq.Page.PageLogin: ! 元素的路径是：.//div[@class = 'user_logined']
-%$ DEBUG Webq.utils.Log 33 debug - Webq.Page.PageLogin: find element By xpath
-%$ DEBUG Webq.utils.Log 33 debug - Webq.Page.PageHome: Webq.Page.PageHome
-%$ INFO  Webq.utils.Log 25 info - Webq.Page.PageHome: /Users/700sfriend/Desktop/work/MyDEV/workspace-sts-3.7.1.RELEASE/webq.wap
-%$ INFO  Webq.utils.Log 25 info - Webq.Page.PageHome: /Users/700sfriend/Desktop/work/MyDEV/workspace-sts-3.7.1.RELEASE/webq.wap/src/main/java/Webq/Page/PageHome.xml
-%$ INFO  Webq.utils.Log 25 info - Webq.utils.xmlUtils: Webq.Page.PageHome
-%$ INFO  Webq.utils.Log 25 info - Webq.utils.xmlUtils: page Info is:Webq.Page.PageHome
-%$ INFO  Webq.utils.Log 25 info - Webq.utils.xmlUtils: get locator type ByXpath
-%$ INFO  Webq.utils.Log 25 info - Webq.utils.xmlUtils: get locator timeOut 3
-%$ INFO  Webq.utils.Log 25 info - Webq.utils.xmlUtils: get locator value .//*[@id='nav-index']
-%$ INFO  Webq.utils.Log 25 info - Webq.utils.xmlUtils: locator Name is MainPage
-%$ INFO  Webq.utils.Log 25 info - Webq.utils.xmlUtils: get locator type ByXpath
-%$ INFO  Webq.utils.Log 25 info - Webq.utils.xmlUtils: get locator timeOut 3
-%$ INFO  Webq.utils.Log 25 info - Webq.utils.xmlUtils: get locator value .//*[@id='header-nav']/li[8]/a
-%$ INFO  Webq.utils.Log 25 info - Webq.utils.xmlUtils: locator Name is BBStoStore
-%$ INFO  Webq.utils.Log 25 info - Webq.utils.xmlUtils: get locator type ByXpath
-%$ INFO  Webq.utils.Log 25 info - Webq.utils.xmlUtils: get locator timeOut 3
-%$ INFO  Webq.utils.Log 25 info - Webq.utils.xmlUtils: get locator value html/head/title
-%$ INFO  Webq.utils.Log 25 info - Webq.utils.xmlUtils: locator Name is TitleStore
-%$ DEBUG Webq.utils.Log 33 debug - Webq.Page.PageHome: ！元素名称是：html/body/div[1]/div/div/div[3]
-%$ DEBUG Webq.utils.Log 33 debug - Webq.Page.PageHome: ! 元素的路径是：html/body/div[1]/div/div/div[3]
-%$ DEBUG Webq.utils.Log 33 debug - Webq.Page.PageHome: find element By xpath
-%$ DEBUG Webq.utils.Log 33 debug - Webq.Page.PageHome: ！元素名称是：MainPage
-%$ DEBUG Webq.utils.Log 33 debug - Webq.Page.PageHome: ! 元素的路径是：.//*[@id='nav-index']
-%$ DEBUG Webq.utils.Log 33 debug - Webq.Page.PageHome: find element By xpath
-%$ INFO  Webq.utils.Log 25 info - Webq.Page.PageHome: click button
-%$ INFO  Webq.utils.Log 25 info - Webq.Page.PageHome: 跳转到主页
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Page.PageCart: 购物车为空，不需要清空
-%$ INFO  Webq.utils.Log 25 info - Webq.utils.TestNGListener: Test Success
 %$ INFO  Webq.utils.Log 25 info - Webq.utils.TestNGListener: Test Finsh
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Page.PageAd: #############################################
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Page.PageAd: http://webq.700paper.cn/meishuguan
@@ -178,151 +83,27 @@
 %$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Page.PageProduct: 已经点击加入购物车按钮
 %$ INFO  Webq.utils.Log 25 info - Webq.utils.TestNGListener: Test Success
 %$ INFO  Webq.utils.Log 25 info - Webq.utils.TestNGListener: Test Finsh
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Page.PageAd: #############################################
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Page.PageAd: http://webq.700paper.cn/meishuguan
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Page.PageAd: #############################################
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: 元素名称是：立即购买  获取的元素路径是：html/body/div[2]/div/div/div[2]/a
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: ########
-%$ ERROR Webq.Page.forLoggerPage 42 error - Webq.Page.PageProduct: 获取面包屑失败
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: 元素名称是：popwin 获取的元素路径是：.//div[@class='popwin']
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: 元素名称是：  获取的元素路径是：.//div[@class='popwin']//div[@class ='popwin-content']
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: 元素名称是：  获取的元素路径是：.//div[@class='popwin']//div[@class = 'popwin-btn']
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: 元素名称是：popwin 获取的元素路径是：.//div[@class='popwin']
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: 元素名称是：  获取的元素路径是：.//div[@class='popwin']//div[@class ='popwin-content']
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Page.PageProduct: 
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: 元素名称是：popwin 获取的元素路径是：.//div[@class='popwin']
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: 元素名称是：  获取的元素路径是：.//div[@class='popwin']//div[@class ='popwin-content']
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: 元素名称是：  获取的元素路径是：.//div[@class='popwin']//div[@class = 'popwin-btn']
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: 元素名称是：  获取的元素路径是：.//div[@class='popwin']//div[@class = 'popwin-btn']
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Page.PageProduct: 库存不足，正在重新选择商品！
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: 元素名称是：div  获取的元素路径是：.//*[@id='buyMod']
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: 元素名称是：石砚灰  获取的元素路径是：.//*[@id='buyMod']//div[@id='selecTedColor']
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Page.PageProduct: 菜单未打开
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Page.PageProduct: 菜单未打开
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Page.PageProduct: 点击打开菜单
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: 元素名称是：石砚灰  获取的元素路径是：.//*[@id='buyMod']//div[@id='selecTedColor']
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: numberColours:3
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: .//*[@id='buyMod']//ul[@class='buy-info-list  buy-info-color-wrap buy-info-list-color']//li[1]//span
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: 备选的颜色：石砚灰
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: .//*[@id='buyMod']//ul[@class='buy-info-list  buy-info-color-wrap buy-info-list-color']//li[2]//span
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: 备选的颜色：杏仁白
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: .//*[@id='buyMod']//ul[@class='buy-info-list  buy-info-color-wrap buy-info-list-color']//li[3]//span
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: 备选的颜色：蟒袍绿
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
-%$ ERROR Webq.Page.forLoggerPage 42 error - Webq.Page.PageProduct: 商品库存状态无异常。
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: 元素名称是：加入购物车  获取的元素路径是：.//*[@id='add_cart']
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageProduct: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Page.PageProduct: 已经点击加入购物车按钮
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: 元素名称是：商品已经成功加入购物车！  获取的元素路径是：html/body/div[2]/div[1]/div/p[2]
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: 元素名称是：商品已经成功加入购物车！  获取的元素路径是：html/body/div[2]/div[1]/div/p[2]
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: 元素名称是：去购物车结算  获取的元素路径是：.//*[@id='toCheckOut']
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: 元素名称是：cartList  获取的元素路径是：.//div[@id='cartList']
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: 元素名称是：gridtable  获取的元素路径是：.//div[@id='cartList']//table[@class = 'gridtable']
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: 元素名称是：美术馆 蟒袍绿 XL
-999.99
-999.99  获取的元素路径是：.//div[@id='cartList']//table[@class = 'gridtable']//tr[2]
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: 元素名称是：cart-add  获取的元素路径是：.//div[@id='cartList']//table[@class = 'gridtable']//tr[2]//a[@class = 'cart-add']
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: 元素名称是：cart-sub  获取的元素路径是：.//div[@id='cartList']//table[@class = 'gridtable']//tr[2]//a[@class = 'cart-sub']
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Page.PageCart: 增加商品的数量为1
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Page.PageCart: 减少商品的数量为1
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: 元素名称是：结算  获取的元素路径是：.//*[@id='linkToPayPage']
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageCart: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrder: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrder: 元素名称是：提交订单  获取的元素路径是：.//*[@id='submitsection']
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrder: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderPay: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderPay: 元素名称是：  .//*[@id='ContentPlaceHolder1_btnPay']
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderPay: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderPay: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderPay: 元素名称是：  .//*[@id='ContentPlaceHolder1_btnPay']
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderPay: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Page.PageOrderLists: 进入订单列表页
-%$ ERROR Webq.Page.forLoggerPage 42 error - Webq.Page.PageOrderLists: 进入订单列表失败，开始重试！
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Page.PageOrderLists: 成功进入订单列表页
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderLists: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderLists: 元素名称是：查看详情  .//*[@id='orderList']/div[1]/div[4]/div[3]/a
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderLists: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: 元素名称是：现货订单:QPC7006770812247  .//*[@id='orderNumber']
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Page.PageAd: 订单号：QPC7006770812247
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Page.PageAd: 开始取消订单。
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: 元素名称是：现货订单:QPC7006770812247  .//*[@id='orderNumber']
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Page.PageAd: 订单号：QPC7006770812247
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: 元素名称是：取消订单  .//*[@id='btnCancelOrder']
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: 元素名称是：  .//*[@id='btnDialogBySHFConfirm']
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: 元素名称是：已取消  .//*[@id='orderStatus']
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Element.ElementPageOrderDetails: ########
-%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Page.PageAd: 订单取消成功！
+%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Page.PageProduct: 商品链接正确！
+%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Page.PageProduct: 点击'打开'菜单
+%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Page.PageProduct: 要选择什么颜色的代码？#c0c0c0
+%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Page.PageProduct: 要选择什么颜色的汉字？灰色
+%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Page.PageProduct: 做出选择后的当前颜色：灰色
+%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Page.PageProduct: 测试通过,用例方法为:PlCheckSubScribeState
+%$ INFO  Webq.utils.Log 25 info - Webq.utils.TestNGListener: Test Success
+%$ INFO  Webq.utils.Log 25 info - Webq.utils.TestNGListener: Test Finsh
+%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Page.PageProduct: 商品链接正确！
+%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Page.PageProduct: 当前有货SKU的颜色为：灰色
+%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Page.PageProduct: 当前add_cart的状态为:加入购物车
+%$ INFO  Webq.utils.Log 25 info - Webq.utils.TestNGListener: Test Success
+%$ INFO  Webq.utils.Log 25 info - Webq.utils.TestNGListener: Test Finsh
+%$ INFO  Webq.Page.forLoggerPage 26 info - Webq.Page.PageProduct: 商品链接正确！
 %$ INFO  Webq.utils.Log 25 info - Webq.utils.TestNGListener: Test Success
 %$ INFO  Webq.utils.Log 25 info - Webq.utils.TestNGListener: Test Finsh
 %$ INFO  Webq.utils.Log 25 info - Webq.utils.TestNGListener: Test Success
 %$ INFO  Webq.utils.Log 25 info - Webq.utils.TestNGListener: Test Finish
 %$ INFO  Webq.utils.Log 25 info - Webq.utils.TestNGListener: PassedTests = TestWebq3
-%$ INFO  Webq.utils.Log 25 info - Webq.utils.TestNGListener: PassedTests = TestWebq1
 %$ INFO  Webq.utils.Log 25 info - Webq.utils.TestNGListener: PassedTests = TestWebq2
 %$ INFO  Webq.utils.Log 25 info - Webq.utils.TestNGListener: PassedTests = TestWebq4
-%$ INFO  Webq.utils.Log 25 info - Webq.Case.CaseWebq: Stop WebDriver
+%$ INFO  Webq.utils.Log 25 info - Webq.utils.TestNGListener: PassedTests = TestWebq5
+%$ INFO  Webq.utils.Log 25 info - Webq.utils.TestNGListener: PassedTests = TestWebqEnd
+%$ INFO  Webq.utils.Log 25 info - Webq.Case.CaseWebqVir: Stop WebDriver

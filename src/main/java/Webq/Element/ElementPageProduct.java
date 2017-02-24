@@ -191,6 +191,7 @@ import Webq.Page.forLoggerPage;
 			 * @return
 			 */
 			public static WebElement getButtonColour(WebDriver cartDriver){
+				BaseXpathProductInfoPath = ".//*[@id='buyMod']";
 				BaseXpathButtonColour = BaseXpathProductInfoPath + "//div[@id='selecTedColor']";
 //				BaseXpathButtonColour = BaseXpathProductInfoPath + "//div[@class='buy-info']"+"//div[@id='selecTedColor']";
 				ButtonColourInfo = cartDriver.findElement(By.xpath(BaseXpathButtonColour ));
@@ -203,7 +204,8 @@ import Webq.Page.forLoggerPage;
 			 * 商品信息-选颜色的菜单 
 			 */
 			public  static WebElement getUlChooseColour(WebDriver cartDriver){
-				PathUlChooseColour = BaseXpathProductInfoPath + "//ul[@class='buy-info-list  buy-info-color-wrap buy-info-list-color']";
+				BaseXpathProductInfoPath = ".//*[@id='buyMod']";
+				PathUlChooseColour = BaseXpathProductInfoPath + "//ul[@class='buy-info-list  buy-info-color-wrap buy-info-list-color']";				
 				UlChooseColour = cartDriver.findElement(By.xpath(PathUlChooseColour));
 				return UlChooseColour;				
 			}
