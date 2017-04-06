@@ -13,11 +13,11 @@
 		
 		
 		<!-- 新版用户名 -->
-		<locator type="ByXpath" timeOut="3" value=".//*[@id='phone']">loginEmailInputBox</locator>
+		<locator type="ByXpath" timeOut="3" value=".//*[@id='txtEmail']">loginEmailInputBox</locator>
 		<!-- 新版密码 -->
-		<locator type="ByXpath" timeOut="3" value=".//*[@id='password']">loginPasswordInputBox</locator>
+		<locator type="ByXpath" timeOut="3" value=".//*[@id='txtPassword']">loginPasswordInputBox</locator>
 		<!-- 新版登陆按钮 -->
-		<locator type="ByXpath" timeOut="3" value=".//*[@id='form1']/div[2]">loginButton</locator>
+		<locator type="ByXpath" timeOut="3" value=".//*[@name='loginBtn']">loginButton</locator>
 		
 		<!-- 玩过界活动页 -->		
 		<locator type="ByXpath" timeOut="3" value=".//*[@id='form1']/div[2]">wgjTitl</locator>
@@ -29,7 +29,7 @@
 		<!-- Stroe从首页切换到登陆页的按钮 -->
 	<!-- 	<locator type="ByXpath" timeOut="30" value=".//*[@id='login']/a">clickToLoginButton</locator>  -->
 		<!-- 社区从首页切换到登陆页的按钮 -->
-		<locator type="ByXpath" timeOut="30" value=".//*[@id='header-user-wrap']/div/span[1]/a">clickToLoginButton</locator> 
+		<locator type="ByXpath" timeOut="30" value=".//*[@id='header-user-wrap']/div[1]/span[1]/a">clickToLoginButton</locator> 
 		
 		<!-- 主页 -->
 		<locator type="ByXpath" timeOut="30" value="html/body/div[1]/div/ul/li[1]/a">MainPage</locator>

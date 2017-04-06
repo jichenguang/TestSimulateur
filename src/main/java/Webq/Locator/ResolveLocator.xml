@@ -20,7 +20,7 @@
 		<locator type="ByXpath" timeOut="3" value="html/head/title">TitleStoreWap</locator>
 		<!-- 首页LOGO -->		
 		<locator type="ByXpath" timeOut="3" value=".//div[@class = 'logo']">LogoStore</locator>
-		<locator type="ByXpath" timeOut="3" value="html/body/section[1]/a[2]/span">LogoStoreWap</locator>
+		<locator type="ByXpath" timeOut="3" value=".//*[@id='main-wrap']/div[2]/p[2]/a">LogoStoreWap</locator>
 		<!-- Booking页面的中间Div -->		
 		<locator type="ByXpath" timeOut="3" value=".//div[@class = 'content-holder graybg product-detail-page']">MiddleDiv</locator>
 		<!-- 首页DivPer周边节点 -->		
@@ -40,7 +40,7 @@
 		
 		<!-- WAP的MenuBar -->
 		<!-- 父节点路径 -->
-		<locator type="ByXpath" timeOut="3" value=".//section[@class = 'menu-bar']">PathDivMenuBar</locator>
+		<locator type="ByXpath" timeOut="3" value=".//*[@id='main-wrap']/div[4]">PathDivMenuBar</locator>
 		<!-- 子节点相对路径 -->
 		<locator type="ByXpath" timeOut="3" value="/a">PathSubDivMenuBar</locator>		
 	</page>

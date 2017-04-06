@@ -60,7 +60,7 @@ public class PageProduct {
 			
 //			System.out.println("拍错代码拍错代码拍错代码拍错代码拍错代码");
 			DoCheckStatesStock();
-			DoButtonAddCart();
+			DoButtonAddCartWap();
 			
 			/*
 			 * WAP版本，需要人为跳转WAP购物车
@@ -99,6 +99,15 @@ public class PageProduct {
 			if(addcartButton.getText()!=null){
 			System.out.println("点击:"+addcartButton.getText());	
 			jse.executeScript("arguments[0].click();", addcartButton); 
+			log.info("已经点击加入购物车按钮");
+			}
+		}
+
+		public static void DoButtonAddCartWap() throws InterruptedException{
+			WebElement addcartButtonWap = ElementPageProduct.getAddcartButtonWap(cartDriver);
+			if(addcartButtonWap.getText()!=null){
+			System.out.println("点击:"+addcartButtonWap.getText());	
+			jse.executeScript("arguments[0].click();", addcartButtonWap); 
 			log.info("已经点击加入购物车按钮");
 			}
 		}
@@ -393,7 +402,9 @@ public class PageProduct {
 				DivInfoAdd.click();
 				int intAfterClike = Integer.parseInt(DivInfoInput.getAttribute("value"));
 				int intResult = intAfterClike - intBeforeClike;
-				Assert.assertTrue("计算结果不正确！", intResult - 1 == 0);
+				System.out.println(intAfterClike);
+				System.out.println(intResult);
+				Assert.assertTrue("计算结果不正确！", intResult == 0);
 			}else if(intBeforeClike == 5){
 				DivInfoLes.click();
 				int intAfterClike = Integer.parseInt(DivInfoInput.getAttribute("value"));

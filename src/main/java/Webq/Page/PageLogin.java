@@ -34,12 +34,13 @@ public class PageLogin extends BasePage {
 	public PageLogin(WebDriver driver) throws Exception {
 		super(driver);
 //		电商首页进入登陆
-//		driver.get("http://webq.700paper.cn/index");
+		driver.get("http://webq.700paper.cn/login");
+		Thread.sleep(3000);
 //		BBS首页进入登陆
-		driver.get("http://test.bbs.700bike.com/");
+//		driver.get("http://test.bbs.700bike.com/");
 	}
 
-	Locator loginEmailInputBox = new Locator("loginEmailInputBox",30);
+	Locator loginEmailInputBox = new Locator("loginEmailInputBox",60);
 	Locator loginPasswordInputBox = new Locator("loginPasswordInputBox");
 	Locator loginButton = new Locator("loginButton");
 	Locator profile = new Locator("profile");
@@ -51,11 +52,11 @@ public class PageLogin extends BasePage {
  * @throws Exception
  */
 	public void typeEmailInputBox(String name) throws Exception {
-//		open("http://webq.700paper.cn/index");		
-		open("http://test.bbs.700bike.com/");
+		open("http://webq.700paper.cn/login");		
+//		open("http://test.bbs.700bike.com/");
 		log.error("检查环境配置的地址有没有变化");
 //		点击“登录”切换按钮，到登录页面
-		switchToLogin();
+//		switchToLogin();
 //		输入值
 		/*
 		 * Param:locatorname:loginEmailInputBox

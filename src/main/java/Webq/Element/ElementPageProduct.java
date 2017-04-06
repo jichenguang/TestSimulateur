@@ -126,6 +126,13 @@ import Webq.Page.forLoggerPage;
 				return addCartButton ;	
 			}
 			
+			public static WebElement getAddcartButtonWap(WebDriver cartDriver) {
+				addCartButton  = cartDriver.findElement(By.xpath(".//*[@id='bottom-buy-cart']"));
+				message = "元素名称是："+addCartButton.getText()+"  "+"获取的元素路径是："+".//*[@id='bottom-buy-cart']";
+				printLog(message);
+				return addCartButton ;	
+			}
+			
 			
 		
 			/**

@@ -37,6 +37,8 @@ public class OpStoreAll  {
 
 	@Test(groups = "loginTest")
 	public void actionCartSubCancleOrder() throws Exception {				
+		/*先清空购物车*/
+		PageCart.ClearCart(driver);
 		/*商品AD页面*/
 		PageAd.PlCartAd(driver);
 		/*商品详情页的操作*/
@@ -73,7 +75,29 @@ public class OpStoreAll  {
 		PageOrderLists.PlOrderListWap(driver);
 		/*订单详情页面*/
 		PageOrderDetails.PlOrderDetailsWap(driver);	
+	}
 	
+	/**
+	 * 用例：验证运费。
+	 * @throws InterruptedException 
+	 */
+	public void actionCarriage() throws InterruptedException{
+		/*商品AD页面*/
+		PageAd.PlCartAd(driver);
+		/*商品详情页的操作*/
+		PageProduct.PlCartProduct(driver);
+		/*过渡页面*/
+		PageTransitional.PlTransitional(driver);
+		/*加入购物车*/
+		PageCart.PlCart(driver);
+		/*提交订单*/
+		PageOrder.PlOrder(driver);
+		/*支付页面确认提交状态*/
+		PageOrderPay.PlOrderPay(driver);
+		/*订单列表页面*/
+		PageOrderLists.PlOrder(driver);
+		/*订单详情页面*/
+		PageOrderDetails.PlOrder(driver);		
 	}
 	
 

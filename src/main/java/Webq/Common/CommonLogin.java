@@ -90,15 +90,17 @@ public class CommonLogin {
 		
 		
 		/*检查Wap首页的登陆标志、当前链接*/
-		loginPageWap.isPrestentProfileWap();
-		loginPageWap.isPresentUrl();
+//		loginPageWap.isPrestentProfileWap();		
+//		System.out.println(loginPageWap.isPresentUrl());
 		
 		/*
 		 * 
 		 *WAP测试，省去联合登陆流程
 		 */
 		System.out.println("已经登陆到WAP");				
-		return myProfileWap();
+//		return myProfileWap();// 2017-02-28 这个ICON找不到，才用了下面的链接做验证。
+//		return loginPageWap.isPresentUrl();
+		return (PageHome) PageFactory.getPage(PageHome.class, getDriver());
 	}
 	/**
 	 * 	判断当前页面是否为true;如何判断登陆成功？Yong用了一个元素是否出现做判断。1、成功：能看到用户头像；2、失败：看不到头像

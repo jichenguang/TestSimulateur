@@ -63,7 +63,7 @@ public class OpExWebq  {
 	 */
 	public void actionExProInfoAutoChangeSKU() {
 		// TODO Auto-generated method stub
-		PageProduct.PlCheckAutoChangeSKU(driver,"灰色","加入购物车");
+		PageProduct.PlCheckAutoChangeSKU(driver,"黑色","加入购物车");
 	}
 	
 	/**

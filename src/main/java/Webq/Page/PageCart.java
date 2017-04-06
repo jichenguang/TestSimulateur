@@ -47,7 +47,7 @@ public class PageCart {
 			jse = (JavascriptExecutor)driver; 
 			/*购物车流程*/		
 			CartCreaseWap();
-			CartToOrder();		
+			CartToOrderWap();		
 		}
 		
 		/**
@@ -55,8 +55,9 @@ public class PageCart {
 		 * 先判断是否为空
 		 * 再判断是否需要清空
 		 * @param driver
+		 * @throws InterruptedException 
 		 */
-		public static void ClearCart(WebDriver driver){			
+		public static void ClearCart(WebDriver driver) throws InterruptedException{			
 			cartDriver = driver;			
 			cartDriver.get("http://webq.700paper.cn/cart");
 			
@@ -76,13 +77,15 @@ public class PageCart {
 		 * false:如果该元素没出现，那么购物车不为空
 		 * @param driver
 		 * @return isEmpty
+		 * @throws InterruptedException 
 		 */
-		public static Boolean CartNotFull(WebDriver driver){
+		public static Boolean CartNotFull(WebDriver driver) throws InterruptedException{
 			cartDriver = driver;
 			jse = (JavascriptExecutor)driver;
 			
 			/*购物车为空的节点是否出现呢*/
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+			Thread.sleep(3000);
 			Boolean isEmpty = cartDriver.findElement(By.xpath(".//*[@id='cartIsEmpty']")).isDisplayed();
 			return isEmpty;	
 		}
@@ -96,6 +99,7 @@ public class PageCart {
 			cartDriver = driver;
 			jse = (JavascriptExecutor)driver;
 			
+			driver.manage().timeouts();
 			log.info("清除购物车");
 			WebElement ButtonDelAll = cartDriver.findElement(By.xpath(".//*[@id='cart-del']"));
 			log.info("选择的按钮是:"+ButtonDelAll.getText());
@@ -142,8 +146,8 @@ public class PageCart {
 			// TODO Auto-generated method stub
 			/*ElementPageCart.getBasePathElementCartList(cartDriver);*/
 			ElementPageCart elemPageCart = new ElementPageCart(cartDriver);
-			WebElement ButtonIncrease = elemPageCart.getButtonIncrease();
-			WebElement ButtonDecrease = elemPageCart.getButtoDecrease();
+			WebElement ButtonIncrease = elemPageCart.getButtonIncreaseWap();
+			WebElement ButtonDecrease = elemPageCart.getButtoDecreaseWap();
 			if(ButtonDecrease.getText()!=null&ButtonIncrease.getText()!=null){
 				log.info("增加商品的数量为1");
 				try{
@@ -172,9 +176,19 @@ public class PageCart {
 		public static void CartToOrder() throws InterruptedException {
 		// TODO Auto-generated method stub
 			System.out.println("点击“去结算”");
+			Thread.sleep(3000);
 			WebElement ButtonCartToOrder = ElementPageCart.getButtonCartToOrder(cartDriver);
 //			ButtonCartToOrder.click();
 //			cartDriver.manage().wait(3000);
 			jse.executeScript("arguments[0].click();", ButtonCartToOrder); 
+		}
+		
+		public static void CartToOrderWap() throws InterruptedException {
+		// TODO Auto-generated method stub
+			System.out.println("点击“去结算”");
+			WebElement ButtonCartToOrder = ElementPageCart.getButtonCartToOrderWap(cartDriver);
+			ButtonCartToOrder.click();
+//			cartDriver.manage().wait(3000);
+//			jse.executeScript("arguments[0].click();", ButtonCartToOrder); 
 		}
 }

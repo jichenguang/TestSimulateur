@@ -1,5 +1,5 @@
-http://webq.700paper.cn/wap/search/自行车
-http://webq.700paper.cn/wap/list/category/peripheral-all
-http://webq.700paper.cn/wap/list/category/peripheral-s
-http://webq.700paper.cn/wap/list/sale
+http://webq.700paper.cn/wap/bike
+http://webq.700paper.cn/wap/channel
+http://webq.700paper.cn/wap/special/brands
+http://webq.700paper.cn/wap/sale
 http://webq.700paper.cn/wap/coupon

@@ -1,5 +1,7 @@
 package Webq.Page;
 
+import java.util.ArrayList;
+
 import org.apache.maven.doxia.logging.Log;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -37,7 +39,8 @@ public class PageOrder {
 		checkYouHui();
 		/*价格信息，检查价格计算是否正确*/
 		checkPrice();
-		
+		/*运费检查，根据收货地址：普通、8省、西藏，验证不同的订单运费*/
+		checkOrderCarriage();		
 //		点击结算页“提交”按钮；
 		subOrder();
 //		获取支付页面文案；
@@ -57,9 +60,61 @@ public class PageOrder {
 		OrderDriver = driver;
 		jse= (JavascriptExecutor)driver; 
 		
+		checkOrderCarriageWap();
 //		点击结算页“提交”按钮；
 		subOrderWap();	
 	}
+
+	/*增加一个步骤，针对自行车商品，根据收货地址：普通、8省、西藏，验证不同的订单运费*/
+	private static void  checkOrderCarriage() {
+		// TODO Auto-generated method stub	
+		System.out.println("检查9省自行车商品的运费");
+		/*选中的地址元素*/
+		WebElement CurrentAdd = ElementPageOrder.getAddress(OrderDriver);		
+		/*省份元素；*/
+		WebElement proVince  =  ElementPageOrder.getAddressProVince(OrderDriver);
+		/*运费元素；*/
+		WebElement FeeCarriage = ElementPageOrder.getFeeCarriage(OrderDriver);
+		
+		/*思路：先遍历并选择地址，然后判断地址是否选中，然后判断这个地址的省份*/		
+		checkChooseAddress();
+		
+		if(CurrentAdd.getAttribute("class").contains("current")){
+			if(proVince.getText().contains("新疆")){		
+				Assert.assertTrue(FeeCarriage.getText().equals("299.00"), "8省运费错误");
+			}else if(proVince.getText().contains("西藏")){
+				Assert.assertTrue(FeeCarriage.getText().equals("699.00"), "西藏运费错误");		
+			}else if(proVince.getText().contains("北京")){
+				Assert.assertTrue(FeeCarriage.getText().equals("99.00"), "普通运费错误");
+			}
+		}else{
+			System.out.println("未选择收货地址！");
+		}		
+	}
+	
+	
+	/*增加一个步骤，根据收货地址：普通、8省、西藏，验证不同的订单运费*/
+	private static void  checkOrderCarriageWap() {
+		// TODO Auto-generated method stub		
+	}
+	
+	/**
+	 * 遍历并选择收货地址
+	 */
+	public static void checkChooseAddress(){
+		/*省份集合*/
+		ArrayList<WebElement>  ProVinses = ElementPageOrder.getAllAddress(OrderDriver);
+		for(int i=1; i<ProVinses.size();i++){
+			WebElement testAdd = ProVinses.get(i);
+			String testAddStr = testAdd.getText();
+			if(testAddStr.equals("北京")||testAddStr.equals("新疆")||testAddStr.equals("西藏")){
+				testAdd.click();				
+			}else{
+				System.out.println("无有效收货地址！");
+			}
+		}	
+	}
+	
 
 	/**
 	 * 检查收货地址是否显示

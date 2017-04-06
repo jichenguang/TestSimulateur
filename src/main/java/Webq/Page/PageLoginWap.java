@@ -2,6 +2,7 @@ package Webq.Page;
 
 import java.io.IOException;
 import java.lang.annotation.Native;
+import java.lang.reflect.InvocationTargetException;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
@@ -9,6 +10,7 @@ import org.testng.Assert;
 
 import Webq.utils.BasePage;
 import Webq.utils.Locator;
+import Webq.utils.PageFactory;
 
 /**
  * 足管登陆的页面
@@ -50,7 +52,7 @@ public class PageLoginWap extends BasePage {
  */
 	public void typeEmailInputBox(String name) throws Exception {	
 		open("http://webq.700paper.cn/wap/login");
-		log.error("打开WAP浏览器。");
+		System.out.println("打开WAP浏览器。");
 //		点击“登录”切换按钮，到登录页面
 //		switchToLogin();
 //		输入值
@@ -79,7 +81,7 @@ public class PageLoginWap extends BasePage {
 	}
 
 	public boolean isPrestentProfileWap() throws IOException { 
-		return isElementPresent(profileWap, 20);
+		return isElementPresent(profileWap, 60);
 	}
 	
 	
@@ -106,8 +108,9 @@ public class PageLoginWap extends BasePage {
 		Locator clickToLoginButton=new Locator("clickToLoginButton");
 		click(clickToLoginButton);
 	}
-	public void isPresentUrl() {
+	public PageHome isPresentUrl() throws ClassNotFoundException, NoSuchMethodException, SecurityException, IllegalArgumentException, InvocationTargetException {
 		// TODO Auto-generated method stub
-//		Assert.assertEquals(driver.getCurrentUrl(),"http://webq.700paper.cn/Wap/index","首页登陆后，跳转链接错误");
+		Assert.assertEquals(driver.getCurrentUrl(),"http://webq.700paper.cn/Wap/index","首页登陆后，跳转链接错误");
+		return (PageHome) PageFactory.getPage(PageHome.class, getDriver());
 	}	
 }

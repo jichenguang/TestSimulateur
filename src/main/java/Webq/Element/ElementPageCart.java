@@ -100,6 +100,15 @@ public class ElementPageCart {
 		return ButtonCartToOrder;
 	};
 	
+	public static WebElement getButtonCartToOrderWap(WebDriver cartDriver) {
+		// TODO Auto-generated method stub
+		
+		ButtonCartToOrder = cartDriver.findElement(By.xpath(".//div[@class= 'jiesuan red']"));
+		message = "元素名称是："+ButtonCartToOrder.getText()+"  "+"获取的元素路径是："+".//div[@class= 'jiesuan red']";
+		printLog(message);
+		return ButtonCartToOrder;
+	};
+	
 	
 	/**
 	 * 购物车的basepath:cartList
@@ -133,7 +142,7 @@ public class ElementPageCart {
 	public WebElement getPathCartProTableWap() {
 		// TODO Auto-generated method stub
 		/*相对路径的时候，不需要点*/
-		PathCartProTableWap = BasePathCartList + "//table[@class = 'cart gridtable']";
+		PathCartProTableWap = BasePathCartList + "//*[@id='good-0']";
 		ElementCartProTableWap = cDriver.findElement(By.xpath(PathCartProTableWap));
 		message = "元素名称是："+ElementCartProTableWap.getAttribute("class")+"  "+"获取的元素路径是："+PathCartProTableWap;
 		printLog(message);
@@ -159,7 +168,7 @@ public class ElementPageCart {
 	public WebElement getPathCartProTabletrWap() {
 		// TODO Auto-generated method stub
 		int i = 2;
-		PathCartProTabletr = PathCartProTableWap + "//tr["+i+"]";
+		PathCartProTabletr = PathCartProTableWap + "//div["+i+"]";
 		ElementCartProTabletr = cDriver.findElement(By.xpath(PathCartProTabletr));
 		message = "元素名称是："+ElementCartProTabletr.getText()+"  "+"获取的元素路径是："+PathCartProTabletr;
 		printLog(message);
@@ -180,6 +189,19 @@ public class ElementPageCart {
 		printLog(message);
 		return ButtonIncrease;
 	}
+	/**
+	 * 那个+号
+	 * @param cartDriver
+	 * @return
+	 */
+	public WebElement getButtonIncreaseWap() {
+		// TODO Auto-generated method stub
+		String PathButtonIncrease = PathCartProTabletr+"//em[@class = 'add']";
+		ButtonIncrease = cDriver.findElement(By.xpath(PathButtonIncrease));
+		message = "元素名称是："+ButtonIncrease.getAttribute("class")+"  "+"获取的元素路径是："+PathButtonIncrease;
+		printLog(message);
+		return ButtonIncrease;
+	}
 
 
 	/**
@@ -195,7 +217,15 @@ public class ElementPageCart {
 		printLog(message);
 		return ButtonDecrease;
 	}
-
+	
+	public WebElement getButtoDecreaseWap() {
+		// TODO Auto-generated method stub	
+		String PathButtonDecrease = PathCartProTabletr+"//em[@class = 'reduce']";
+		ButtonDecrease = cDriver.findElement(By.xpath(PathButtonDecrease));
+		message = "元素名称是："+ButtonDecrease.getAttribute("class")+"  "+"获取的元素路径是："+PathButtonDecrease;
+		printLog(message);
+		return ButtonDecrease;
+	}
 	
 
 }

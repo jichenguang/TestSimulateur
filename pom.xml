@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>i.test.store</groupId>
-  <artifactId>webq.wap</artifactId>
+  <artifactId>TestSimulateur</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>webq.wap</name>
+  <name>TestSimulateur</name>
   <url>http://maven.apache.org</url>
 
   <properties>

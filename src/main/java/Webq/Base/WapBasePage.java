@@ -247,14 +247,13 @@ public class WapBasePage extends ResolveLocator{
 			 String UrlTxt = null;
 			 String filePath = System.getProperty("user.dir")+"/Menu-bar-Url.txt";
 			 UrlTxt = getUrl(filePath,i);//把循环下标传给数据数组，这样可以按顺序比对。
-			 Assert.assertEquals(newStr, UrlTxt,"告警：URL链接错误！");
-
+			 Assert.assertEquals(newStr, UrlTxt,"告警：URL链接错误！");		 
+			 
+			 /*获取子元素ICON：*/
+			 WebElement tsSpan = SubDivs.get(i).findElement(By.xpath("./p[1]"));
 			 
 			 
-			 
-
-			 /*子元素的CSS样式*/
-			 WebElement tsSpan = SubDivs.get(i).findElement(By.xpath("./span"));
+			 /*子元素ICon的CSS样式*/
 			 String CssValue = tsSpan.getCssValue("width");
 			 System.err.println(CssValue);
 			 
@@ -266,8 +265,8 @@ public class WapBasePage extends ResolveLocator{
 			 Dimension DimSpan = tsSpan.getSize();
 			 System.err.println("子元素ICON的尺寸:"+DimSpan.getHeight());
 			 System.err.println("子元素ICON的尺寸:"+DimSpan.getWidth());
-			 Assert.assertEquals(DimSpan.getHeight(), 104,"告警：ICON高度错误。");
-			 Assert.assertEquals(DimSpan.getWidth(), 60,"告警：ICON宽度错误。");
+			 Assert.assertEquals(DimSpan.getHeight(), 131,"告警：ICON高度错误。");
+//			 Assert.assertEquals(DimSpan.getWidth(), 270,"告警：ICON宽度错误。");
 			 
 			 
 			 /*循环结果的分割行*/
@@ -278,6 +277,7 @@ public class WapBasePage extends ResolveLocator{
 	}
 	
 	/**
+	 * 把文件的内容，写入一个数组。
 	 * 从一个txt文件读取URL信息，然后逐行存入一个数组中。
 	 * 调用数组【n】，与实际URL进行对比。
 	 * @param filePath
@@ -298,6 +298,7 @@ public class WapBasePage extends ResolveLocator{
 				 int m = 0;
 				 String[] ttt = new String[20];
 				 while((sss = bufferedReader.readLine()) != null){
+					 /*先把文件的内容，按行读入输入，再从数组中取出来*/
 					 //	System.out.println(sss);
 						ttt[m] = sss; 
 						m++;

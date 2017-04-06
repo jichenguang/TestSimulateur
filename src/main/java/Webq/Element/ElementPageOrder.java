@@ -1,5 +1,7 @@
 package Webq.Element;
 
+import java.util.ArrayList;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -28,6 +30,9 @@ public class ElementPageOrder {
 	private static WebElement Shipping;
 	private static WebElement couponCashBack;
 	private static WebElement totalAmountPayable;
+	private static WebElement AddressProVince;
+	private static WebElement feeCarriage;
+	private static ArrayList<WebElement> allAddress;
 
 	
 	/**
@@ -79,13 +84,30 @@ public class ElementPageOrder {
 		message = "元素名称是："+LinkFromPic.getTagName()+"  "+"获取的元素路径是："+str;	
 		return LinkFromPic;
 	}
-
+	
+	/**
+	 * 被选中的收货地址
+	 * @param orderDriver
+	 * @return
+	 */
 	public static WebElement getAddress(WebDriver orderDriver) {
 		// TODO Auto-generated method stub
 		String str = ".//*[@id='address_box']/div[2]";
 		Address = orderDriver.findElement(By.xpath(str));
 		message = "元素名称是："+Address.getTagName()+"  "+"获取的元素路径是："+str;
 		return Address;
+	}
+	
+	/**
+	 * 收货地址中所有的省份
+	 * @param orderDriver
+	 * @return
+	 */
+	public static ArrayList<WebElement> getAllAddress(WebDriver orderDriver) {
+		// TODO Auto-generated method stub
+		String allAddressStr = ".//*[@id='address_box']";
+		allAddress = (ArrayList<WebElement>) orderDriver.findElements(By.xpath(allAddressStr));
+		return allAddress;
 	}
 
 	public static WebElement getAddressDef(WebDriver orderDriver) {
@@ -95,6 +117,15 @@ public class ElementPageOrder {
 		message = "元素名称是："+AddressDef.getTagName()+"  "+"获取的元素路径是："+str;
 		return AddressDef;
 	}
+	
+	public static WebElement getAddressProVince(WebDriver orderDriver) {
+		// TODO Auto-generated method stub
+		String str = "//*[@id='address_box']/div[2]/span[2]";
+		AddressProVince = orderDriver.findElement(By.xpath(str));
+		message = "元素名称是："+AddressProVince.getTagName()+"  "+"获取的元素路径是："+str;
+		return AddressProVince;
+	}
+	
 	
 	/**
 	 * 总价
@@ -148,6 +179,21 @@ public class ElementPageOrder {
 		return totalAmountPayable;
 	}
 	
+	/**
+	 * 运费价格
+	 * @param orderDriver
+	 * @return
+	 */
+	public static WebElement getFeeCarriage(WebDriver orderDriver) {
+		// TODO Auto-generated method stub
+		String str = ".//*[@id='shipping']";
+		feeCarriage = orderDriver.findElement(By.xpath(str));
+		message = "元素名称是：" + feeCarriage.getTagName()+"  "+"获取的元素路径是："+str;		
+		return feeCarriage;
+	}
+
+
+
 	
 
 	

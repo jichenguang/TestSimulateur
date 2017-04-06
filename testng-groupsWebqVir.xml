@@ -5,7 +5,7 @@
 		<classes>
 			<class name="Webq.Case.CaseWebqVir" >
 				<methods>
-<!-- 				  <include  name = "TestWebq1"/> -->
+				  <include  name = "TestWebq1"/>
 				  <include  name = "TestWebq2"/>
 				  <include  name = "TestWebq3"/>
 				  <include  name = "TestWebq4"/>

@@ -81,10 +81,18 @@ public class CaseWebq extends UITest {
 		opStoreAll.actionCartSubCancleOrder();
 	}
 	
-	/*测试的用例*/
+	/*订单运费检查*/
 	@Test
 	public void TestWebq4() throws Exception {
 		System.err.println("4");
+		OpStoreAll opStoreAll = new OpStoreAll(driver);
+		opStoreAll.actionCartSubCancleOrder();
+	}
+	
+	/*测试的用例*/
+	@Test
+	public void TestWebqEnd() throws Exception {
+		System.err.println("End");
 	}
 
 	@Override
