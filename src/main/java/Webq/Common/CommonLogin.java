@@ -131,7 +131,7 @@ public class CommonLogin {
  */
 	public static PageHome login() throws Exception {
 //		在本类调用本类方法，可以专注于接收参数
-		return CommonLogin.login("13157741542", "ji123456");
+		return CommonLogin.login("18611360619", "mljicj00");
 	}
 	
 	public static PageHome loginWap() throws Exception {

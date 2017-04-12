@@ -33,7 +33,7 @@ import Webq.utils.UITest;
  *
  */
 @Listeners({ TestNGListener.class })
-public class CaseWebq extends UITest {
+public class CaseCheckAllOrder extends UITest {
 
 //	注释掉，使用默认浏览器。
 //	WebDriver driver = DriverFactory.getChromeDriver();
@@ -54,7 +54,7 @@ public class CaseWebq extends UITest {
 	
 	/*登陆*/
 	@Test
-	public void TestWebq1() throws Exception {
+	public void Test1() throws Exception {
 		 System.err.println("1");
 		 OpLogin opLogin = new OpLogin(driver);
 		 opLogin.actionLogin();		 
@@ -66,7 +66,7 @@ public class CaseWebq extends UITest {
 	
 	/*商品详情页*/
 	@Test
-	public void TestWebq2() throws Exception {
+	public void Test2() throws Exception {
 		System.err.println("2");
 		OpExWebq opExWebq = new OpExWebq(driver);
 		opExWebq.actionExProPages();
@@ -75,7 +75,7 @@ public class CaseWebq extends UITest {
 	
 	/*订单全流程*/
 	@Test
-	public void TestWebq3() throws Exception {
+	public void Test3() throws Exception {
 		System.err.println("3");
 		OpStoreAll opStoreAll = new OpStoreAll(driver);
 		opStoreAll.actionCartSubCancleOrder();
@@ -83,7 +83,7 @@ public class CaseWebq extends UITest {
 	
 	/*测试的用例*/
 	@Test
-	public void TestWebq4() throws Exception {
+	public void Test4() throws Exception {
 		System.err.println("4");
 	}
 

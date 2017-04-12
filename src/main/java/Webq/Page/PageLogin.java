@@ -34,9 +34,9 @@ public class PageLogin extends BasePage {
 	public PageLogin(WebDriver driver) throws Exception {
 		super(driver);
 //		电商首页进入登陆
-//		driver.get("http://webq.700paper.cn/index");
+		driver.get("http://www.700store.com/index");
 //		BBS首页进入登陆
-		driver.get("http://test.bbs.700bike.com/");
+//		driver.get("http://test.bbs.700bike.com/");
 	}
 
 	Locator loginEmailInputBox = new Locator("loginEmailInputBox",30);

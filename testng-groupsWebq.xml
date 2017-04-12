@@ -3,12 +3,12 @@
 <suite name="Suite" parallel="tests"  thread-count="5">
 	<test verbose="2" name="TestGroups" preserve-order="true">
 		<classes>
-			<class name="Webq.Case.CaseWebq" >
+			<class name="Webq.Case.CaseCheckAllOrder" >
 				<methods>
-				  <include  name = "TestWebq1"/>
-				  <include  name = "TestWebq2"/>
-				  <include  name = "TestWebq3"/>			  
-				  <include  name = "TestWebq4"/>
+				  <include  name = "Test1"/>
+				  <include  name = "Test2"/>
+				  <include  name = "Test3"/>			  
+				  <include  name = "Test4"/>
 				</methods>
 			</class>
 		</classes>
