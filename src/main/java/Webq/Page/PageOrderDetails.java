@@ -28,7 +28,7 @@ public class PageOrderDetails {
 	 * @param driver
 	 * @throws InterruptedException 
 	 */
-	public static void PlOrder(WebDriver driver) throws InterruptedException {
+	public static void PlOrderDetail(WebDriver driver) throws InterruptedException {
 		// TODO Auto-generated method stub
 		
 		OrderDriver = driver;

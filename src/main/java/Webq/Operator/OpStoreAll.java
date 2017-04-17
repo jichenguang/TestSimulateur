@@ -47,14 +47,14 @@ public class OpStoreAll  {
 		PageTransitional.PlTransitional(driver);
 		/*加入购物车*/
 		PageCart.PlCart(driver);
-		/*提交订单*/
+		/*提交订单,含运费检查*/
 		PageOrder.PlOrder(driver);
 		/*支付页面确认提交状态*/
 		PageOrderPay.PlOrderPay(driver);
 		/*订单列表页面*/
 		PageOrderLists.PlOrder(driver);
 		/*订单详情页面*/
-		PageOrderDetails.PlOrder(driver);		
+		PageOrderDetails.PlOrderDetail(driver);		
 	}
 	
 
@@ -97,7 +97,7 @@ public class OpStoreAll  {
 		/*订单列表页面*/
 		PageOrderLists.PlOrder(driver);
 		/*订单详情页面*/
-		PageOrderDetails.PlOrder(driver);		
+		PageOrderDetails.PlOrderDetail(driver);		
 	}
 	
 

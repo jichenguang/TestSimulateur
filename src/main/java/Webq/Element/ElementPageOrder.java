@@ -85,6 +85,8 @@ public class ElementPageOrder {
 		return LinkFromPic;
 	}
 	
+	
+	
 	/**
 	 * 被选中的收货地址
 	 * @param orderDriver

@@ -1,6 +1,4 @@
-/**
- * 
- */
+
 package Webq.Common;
 
 import org.openqa.selenium.WebDriver;
@@ -28,9 +26,6 @@ public class CommonPageHome {
 		return driver;
 	}
 	
-	
-	
-
 	/**
 	 * @author 700sfriend
 	 * Webq
@@ -46,10 +41,6 @@ public class CommonPageHome {
 		
 //		正常的登录，返回一个页面
 		pageHome = CommonLogin.login();
-		
-//		登录后切换到“主页”
-		System.out.println("！！跳转到首页");
-		pageHome.clickOnMainPage();
 		
 //		返回一个主页的“页对象”
 		return pageHome;
@@ -72,7 +63,8 @@ public class CommonPageHome {
 		
 //		正常的登录，返回一个页面
 		pageHome = CommonLogin.loginWap();
-				
+		
+		/*检查Wap首页的登陆标志、当前链接*/		
 //		登录后切换到“我的主页”
 		System.out.println("#WAP登陆成功#");
 		return pageHome;

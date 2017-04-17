@@ -11,6 +11,7 @@
 		<!-- <locator type="ByXpath" timeOut="3" value=".//*[@id='header-avatr-wrap']/div/a/img">profile</locator> -->	
 		<!-- 主页 -->
 		<!-- <locator type="ByXpath" timeOut="3" value=".//*[@id='menus']/li[1]/a">MainPage</locator> -->
+		<locator type="ByXpath" timeOut="3" value=".//div[@class = 'user_logined']">profile</locator>	
 		<locator type="ByXpath" timeOut="3" value=".//*[@id='nav-index']">MainPage</locator>
 		
 		<!-- 跳转到Store -->		

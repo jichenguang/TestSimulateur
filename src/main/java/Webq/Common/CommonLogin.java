@@ -28,7 +28,7 @@ public class CommonLogin {
 	public static WebDriver getDriver() {
 		return driver;
 	}
-	static String StoreUrl = "http://webq.700paper.cn/login?__EVENTVALIDATION=zPEvEHHuVuia3o7cWOL0Wv%2FHP5RquU5AefjitZP5MEs31W0eV27hq6Au%2B1P7qaHjvP%2FSmNEcYy0qFCCkUhC7KVREmeNZK%2BIBDXPK%2BKT0clS%2BPgGOlz1UnJMFTaE3i2WOZaUxkoLArK1ZcsABAgQiA0t0tVs%3D&__VIEWSTATE=qugkCLu3cvauq28Z9UJMQqKr8SGIAd%2FouTF%2FrLDr8tEH242Om6RrqRj7oZzlzFFyj%2FCWgFFpE5UEAl9xLP5IU6%2Bb1SE%3D&__VIEWSTATEGENERATOR=C2EE9ABB&btnSubmit=&txtEmail=13157741542&txtPassword=ji123456";
+	static String StoreUrl = "http://www.700store.com/login?__EVENTVALIDATION=jyKQXzZaJ5FJoml5GvqUdDR6kbkTpalvyuUhjCGPqGz%2FXJhsxErPhgEdRvtRaN9VemcbXJvYig634WI1wjuYR6eKmmrCFu1nmsVfP79TRJW10vbv8Sh%2FAEOrEr8%2Fu6Yjljgvx9jGT%2FB04vtWt%2FgTU31Syjg%3D&__VIEWSTATE=5n94eY3KAZ1CMx1QOo75FiANPzozx1AsmAwfZkTeM720msnCS%2F5DoNBY9ekbD5KLT9eyCnjUa89RgcPZ7T13KSf0JfI%3D&__VIEWSTATEGENERATOR=C2EE9ABB&btnSubmit=&txtEmail=18611360619&txtPassword=mljicj00";
 	static PageLogin loginPage;
 	static PageLoginWap loginPageWap;
 
@@ -133,12 +133,12 @@ public class CommonLogin {
  */
 	public static PageHome login() throws Exception {
 //		在本类调用本类方法，可以专注于接收参数
-		return CommonLogin.login("13157741542", "ji123456");
+		return CommonLogin.login("18611360619", "mljicj00");
 	}
 	
 	public static PageHome loginWap() throws Exception {
 //		在本类调用本类方法，可以专注于接收参数
-		return CommonLogin.loginWap("13157741542", "ji123456");
+		return CommonLogin.loginWap("18611360619", "mljicj00");
 	}
 /**
  * @author 700sfriend

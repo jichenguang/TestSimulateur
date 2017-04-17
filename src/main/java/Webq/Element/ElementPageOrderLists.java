@@ -29,9 +29,9 @@ public class ElementPageOrderLists {
 	/**
 	 * 订单列表页面的Url
 	 */
-	public static String strUrl = "http://userq.700paper.cn/orderlist";
+	public static String strUrl = "http://user.700store.com/orderlist";
 	
-	public static String strUrlWap = "http://userq.700paper.cn/wap/orderlist";
+	public static String strUrlWap = "http://user.700store.com/wap/orderlist";
 	
 
 	/**

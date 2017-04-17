@@ -68,21 +68,20 @@ public class PageAd {
 		public static  void openProductAd() {
 			// TODO Auto-generated method stub
 	//		进入后街页面		
-//			String houjieUrl = "http://webq.700paper.cn/houjie";
-			String meishuguan = "http://webq.700paper.cn/meishuguan";
-			cartDriver.get(meishuguan);
+			String houjie = "http://www.700store.com/houjie";
+			cartDriver.get(houjie);
 			log.info("#############################################");
-			log.info(meishuguan);
+			log.info(houjie);
 			log.info("#############################################");
 		}
 		
 		public static  void openProductAdWap() throws InterruptedException {
 			// TODO Auto-generated method stub
 	//		进入美术馆页面		
-			String meishuguan = "http://webq.700paper.cn/wap/meishuguan";
-			cartDriver.get(meishuguan);
+			String 	houjie = "http://www.700store.com/wap/houjie";
+			cartDriver.get(houjie);
 			log.info("#############################################");
-			log.info(meishuguan);
+			log.info(houjie);
 			log.info("#############################################");
 		}
 	
@@ -103,7 +102,7 @@ public class PageAd {
 		
 		public static void checkSellOnceWap() throws InterruptedException {
 			// TODO Auto-generated method stub
-			String lolbtn = "html/body/div[2]/div/div[2]/a";
+			String lolbtn = "html/body/div[1]/div/div[2]/a";
 //			立即购买按钮
 			WebElement SellOnceButton = ElementPageAd.getSellOnceButtonWap(cartDriver,lolbtn);	
 			if(SellOnceButton.getText()!=null){

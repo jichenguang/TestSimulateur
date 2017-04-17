@@ -1,5 +1,6 @@
 package Webq.Page;
 
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -20,7 +21,9 @@ public class PageCart {
 		/*页面类三大基本元素*/
 		static PageLogin loginPage;
 		static WebDriver cartDriver; 
-		static JavascriptExecutor jse; 
+		static JavascriptExecutor jse;
+		static List<WebElement> delBtns;
+		
 		/**
 		 * @author 700sfriend
 		 * 这个log必须是静态的，那么我只能用PageCart.class来取代new Log(this.getClass())的写法。
@@ -59,7 +62,7 @@ public class PageCart {
 		 */
 		public static void ClearCart(WebDriver driver) throws InterruptedException{			
 			cartDriver = driver;			
-			cartDriver.get("http://webq.700paper.cn/cart");
+			cartDriver.get("http://www.700store.com/cart");
 			
 			if(CartNotFull(cartDriver)==true){
 				log.info("购物车为空，不需要清空");
@@ -68,8 +71,10 @@ public class PageCart {
 				Assert.assertTrue(CartNotFull(cartDriver), "已清空");
 				log.info("预置条件：购物车已清空");
 			}
-			cartDriver.get("http://webq.700paper.cn/index");
+			cartDriver.get("http://www.700store.com/index");
 		}
+
+		
 
 		/**
 		 * 通过判断页面的内容信息是否出现，来判断购物车是否为空。
@@ -87,9 +92,19 @@ public class PageCart {
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 			Thread.sleep(3000);
 			Boolean isEmpty = cartDriver.findElement(By.xpath(".//*[@id='cartIsEmpty']")).isDisplayed();
+			System.out.println(isEmpty);
 			return isEmpty;	
 		}
 
+		/*判断购物车中是否有过期商品*/
+		private static boolean CartNothing(WebDriver cartDriver) {
+			// TODO Auto-generated method stub	
+			//过期商品的删除按钮
+			delBtns = cartDriver.findElements(By.className("del-btn"));
+			Boolean isHas = delBtns.get(0).isDisplayed();
+			return isHas;
+		}
+		
 		/**
 		 * 删除购物车的所有商品
 		 * @param driver
@@ -106,6 +121,18 @@ public class PageCart {
 			jse.executeScript("arguments[0].click();", ButtonDelAll);
 			WebElement ButtonConfirm = cartDriver.findElement(By.xpath(".//*[@id='DialogBySHF']")).findElement(By.xpath(".//*[@id='btnDialogBySHFConfirm']"));
 			jse.executeScript("arguments[0].click();", ButtonConfirm);
+			
+			/*删除过期商品*/
+			if(CartNothing(cartDriver)==true){
+				//删除
+				for(int i = 0;i<delBtns.size();i++){
+					delBtns.get(i).click();
+					cartDriver.findElement(By.className("popwin")).findElement(By.className("popwin-btn")).click();
+				}				
+				System.out.println("已经删除购物车中过期的商品");
+			}else{
+				System.out.println("购物车中不存在过期的商品");
+			}
 
 		}
 		

@@ -30,7 +30,8 @@ public class PageOrder {
 		OrderDriver = driver;
 		jse= (JavascriptExecutor)driver; 
 		
-		
+		/*添加收货地址*/
+		//AddAddress();
 		/*收货地址*/
 		checkAddress();
 		/*商品清单，检查商品图片信息*/
@@ -47,6 +48,13 @@ public class PageOrder {
 //		PageOrderPay.TextPayPage();
 //		检查是否提交成功；
 //		PageOrderPay.checkOrder();		
+	}
+
+	/*新用户添加新的收货地址*/
+	private static void AddAddress() {
+		// TODO Auto-generated method stub
+		System.out.println("新用户需要先添加收货地址");
+		
 	}
 
 	/**
@@ -165,7 +173,7 @@ public class PageOrder {
 		System.out.println("检查商品清单的链接");
 		WebElement LinkFromPic  =   ElementPageOrder.getLinkFromPic(OrderDriver);
 		String TextLink = LinkFromPic.getAttribute("href").toString();
-		String ExcepedStr = "http://webq.700paper.cn/booking/15641.html";
+		String ExcepedStr = "http://www.700store.com/booking/107001.html";
 		Assert.assertEquals(TextLink, ExcepedStr,"Img商品链接不一致");
 	}
 	

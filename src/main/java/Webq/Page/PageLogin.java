@@ -34,7 +34,7 @@ public class PageLogin extends BasePage {
 	public PageLogin(WebDriver driver) throws Exception {
 		super(driver);
 //		电商首页进入登陆
-		driver.get("http://webq.700paper.cn/login");
+		driver.get("http://www.700store.com/login");
 		Thread.sleep(3000);
 //		BBS首页进入登陆
 //		driver.get("http://test.bbs.700bike.com/");
